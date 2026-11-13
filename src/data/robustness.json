@@ -1,0 +1,13 @@
+{
+  "backups": 2,
+  "importMaximumBytes": 52428800,
+  "storageQuotaBytes": 5242880,
+  "indexedDbThreshold": 0.5,
+  "leaseMs": 10000,
+  "heartbeatMs": 3000,
+  "commandHistoryLimit": 20,
+  "devValidate": false,
+  "validateEveryTicks": 1000,
+  "helloWaitMs": 1000,
+  "measuredCheckpointUtf8Bytes": 2006423
+}

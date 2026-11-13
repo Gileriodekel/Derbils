@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "run": {
+      "name": "Running",
+      "color": "#FE66AB",
+      "border": "#C95187",
+      "fruit": "sunapple"
+    },
+    "swim": {
+      "name": "Swimming",
+      "color": "#EAB607",
+      "border": "#B99006",
+      "fruit": "dewberry"
+    },
+    "fly": {
+      "name": "Flight",
+      "color": "#9F55E1",
+      "border": "#8628D9",
+      "fruit": "cloudplum"
+    },
+    "strength": {
+      "name": "Strength",
+      "color": "#EE4930",
+      "border": "#BC3A26",
+      "fruit": "stonepear"
+    },
+    "stamina": {
+      "name": "Stamina",
+      "color": "#437CF5",
+      "border": "#2D64B9",
+      "fruit": "ambermelon"
+    }
+  },
+  "movement": {
+    "normal": {
+      "walk": 1.2,
+      "swim": 0.9,
+      "fly": 1.1
+    },
+    "bonusPerLevel": 0.025,
+    "baseEnergy": 30,
+    "energyPerStamina": 2,
+    "drainPerSecond": 1,
+    "recoveryPerSecond": 2,
+    "restartEnergyFraction": 0.75,
+    "minimumFlight": 1
+  },
+  "plants": {
+    "maximum": 20,
+    "initial": 15,
+    "spawnEveryTicks": 10,
+    "spacing": 4,
+    "waterShare": 0.3,
+    "berryXp": 30,
+    "carryCapacity": 6,
+    "spawnAttempts": 60,
+    "gatherInterest": 0.4,
+    "saveCompatibilityMaximum": 40
+  },
+  "relationships": {
+    "friendThreshold": 33.333333333333336,
+    "foeThreshold": -33.333333333333336,
+    "foeColor": "#F7A598",
+    "friendColor": "#A2DAB6",
+    "mateLimit": 3,
+    "mateGain": 50,
+    "mateMinimumScore": 35,
+    "breakupScore": 0,
+    "socialIntervalTicks": 120,
+    "proximity": 2,
+    "shareHunger": 35,
+    "stealChance": 0.4,
+    "fightChance": 0.65,
+    "fightPenalty": 0.4,
+    "fightPenaltyDays": 2,
+    "repeatedPenalty": "refresh",
+    "lonelyNoFriendsPerMinute": 1,
+    "lonelyPerFoePerMinute": 0.25,
+    "breedingLonelinessWeight": 0.35,
+    "shareBond": 3,
+    "stealBond": -8,
+    "fightBond": -10,
+    "mateStartingBond": 75,
+    "mateReinforcement": 8
+  },
+  "competitions": {
+    "derbyDays": 15,
+    "cupDays": 30,
+    "berryPrize": 5,
+    "championAttraction": 0.2,
+    "historyLimit": 100
+  },
+  "art": {
+    "developmentStart": 1,
+    "developmentMaximum": 100,
+    "sizeTiles": 5,
+    "walkCycleTicks": 2,
+    "flapCycleTicks": 1.2,
+    "footAngle": 6,
+    "wingAngle": 12,
+    "saturation": 60,
+    "baseLightness": 42,
+    "highlightLightness": 62
+  }
+}

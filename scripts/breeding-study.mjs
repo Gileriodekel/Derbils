@@ -1,0 +1,22 @@
+import {spawn} from 'node:child_process';
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {buildStudyCore} from './study-build.mjs';
+const args=process.argv.slice(2),option=(name,fallback)=>{const i=args.indexOf(name);return i<0?fallback:args[i+1];};
+const ticks=Number(option('--ticks','300000')),seed=option('--seed'),input=option('--world');
+if(!Number.isSafeInteger(ticks)||ticks<1)throw new Error('--ticks must be a positive integer');
+const tuning=JSON.parse(await readFile('src/data/breeding.json','utf8'));
+const seeds=seed?[Number(seed)]:input?[Number(JSON.parse(await readFile(input,'utf8')).state.saveId.slice(6))]:tuning.reportSeeds;
+if(seeds.some(n=>!Number.isSafeInteger(n)||n<0||n>0xffffffff))throw new Error('Invalid seed');
+const folder=resolve(option('--out','.logs/breeding-study'));await mkdir(folder,{recursive:true});
+const core=await buildStudyCore(),children=new Set();
+for(const signal of ['SIGTERM','SIGINT'])process.once(signal,()=>{for(const child of children)child.kill('SIGTERM');process.exit(1);});
+const results=await Promise.all(seeds.map(seed=>new Promise(resolve=>{
+ const output=`${folder}/${input?'imported':'seed'}-${seed}`;
+ const child=spawn(process.execPath,['scripts/breeding-worker.mjs',core,String(seed),String(ticks),output,input??'',args.includes('--unassisted')?'unassisted':'configured'],{stdio:['ignore','inherit','inherit']});
+ children.add(child);child.on('error',error=>{children.delete(child);resolve({seed,pass:false,error:String(error)});});
+ child.on('exit',async code=>{children.delete(child);try{const result=JSON.parse(await readFile(output+'.json','utf8'));resolve({...result,pass:code===0&&result.pass});}catch{resolve({seed,pass:false,exitCode:code});}});
+})));
+await writeFile(`${folder}/summary.json`,JSON.stringify(results,null,2));
+console.log(`Breeding study: ${results.filter(r=>r.pass).length}/${results.length} passed. Rescue: ${args.includes('--unassisted')?'disabled':'world setting'}. Reports: ${folder}`);
+if(results.some(r=>!r.pass))process.exitCode=1;

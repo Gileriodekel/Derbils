@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+*.local
+out/
+.logs/
+playwright-report/
+test-results/
+Creature.html
+Creature.zip
+Derbil-Dynasty.html
+Derbil-Dynasty.zip
+
+Derbil-Dynasty-Preview.zip

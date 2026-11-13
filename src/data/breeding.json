@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "extinctionRescue": true,
+  "founderCount": 12,
+  "initialAdults": 8,
+  "rescueCount": 6,
+  "minimumCompatibility": 0.3,
+  "compatibilityWeights": {
+    "bond": 0.55,
+    "traits": 0.2,
+    "taste": 0.15,
+    "diversity": 0.1
+  },
+  "needMaximum": 65,
+  "stressMaximum": 50,
+  "minimumMood": 0.1,
+  "adultRemainingTicks": 21,
+  "maximumClutches": 5,
+  "cooldownDays": 2,
+  "attemptIntervalTicks": 10,
+  "attemptChance": 0.8,
+  "encouragementUtility": 0.15,
+  "encouragementMultiplier": 1.5,
+  "courtshipInterest": 2.0,
+  "recipientMinimumUtility": 0.2,
+  "courtshipWorkTicks": 20,
+  "travelTimeoutTicks": 300,
+  "radiusTiles": 48,
+  "candidateCount": 8,
+  "densityFullUntil": 12,
+  "foodCapacityFloor": 12,
+  "referenceSources": 14,
+  "nest": {
+    "x": 75,
+    "y": 45
+  },
+  "reportTicks": 1000000,
+  "reportSeeds": [
+    271828,
+    314159,
+    161803
+  ],
+  "reportIntervalTicks": 50000,
+  "diversityFloor": 0.4,
+  "minimumBond": 10,
+  "mateBondWeight": 0.1,
+  "rivalryPenalty": 0.1,
+  "mateTemperature": 0.6,
+  "founderAdultSpreadDays": 12,
+  "founderJuvenileSpreadFraction": 0.75,
+  "recovery": {
+    "maximumPopulation": 12,
+    "eggs": 4,
+    "checkEveryTicks": 60,
+    "cooldownDays": 3,
+    "minimumProjectedPopulation": 8,
+    "minimumYoung": 6,
+    "minimumBreedingWindowTicks": 120
+  },
+  "targetPopulation": 24,
+  "clutchEggs": 3
+}

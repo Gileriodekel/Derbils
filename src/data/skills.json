@@ -1,0 +1,47 @@
+{
+  "run": {
+    "id": "run",
+    "name": "Running",
+    "trainingActivity": "train_run",
+    "activityName": "Running laps",
+    "xpLinear": 8,
+    "xpQuadratic": 2,
+    "levelCap": 100
+  },
+  "swim": {
+    "id": "swim",
+    "name": "Swimming",
+    "trainingActivity": "train_swim",
+    "activityName": "Practicing swimming",
+    "xpLinear": 8,
+    "xpQuadratic": 2,
+    "levelCap": 100
+  },
+  "fly": {
+    "id": "fly",
+    "name": "Flight",
+    "trainingActivity": "train_fly",
+    "activityName": "Hopping and flapping",
+    "xpLinear": 8,
+    "xpQuadratic": 2,
+    "levelCap": 100
+  },
+  "strength": {
+    "id": "strength",
+    "name": "Strength",
+    "trainingActivity": "train_strength",
+    "activityName": "Pushing stones",
+    "xpLinear": 8,
+    "xpQuadratic": 2,
+    "levelCap": 100
+  },
+  "stamina": {
+    "id": "stamina",
+    "name": "Stamina",
+    "trainingActivity": "train_stamina",
+    "activityName": "Training endurance",
+    "xpLinear": 8,
+    "xpQuadratic": 2,
+    "levelCap": 100
+  }
+}

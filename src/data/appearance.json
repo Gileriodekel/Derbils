@@ -1,0 +1,3676 @@
+{
+  "frame": {
+    "size": 64,
+    "bodyCenter": {
+      "x": 32,
+      "y": 36
+    },
+    "maximumRadius": 56,
+    "worldUnitsPerPixel": 0.085,
+    "hitRadiusTiles": 0.95,
+    "thoughtOffsetTiles": 5.1,
+    "nameOffsetTiles": 3.4
+  },
+  "slots": [
+    {
+      "id": "shadow",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.875
+      },
+      "layer": "shadow",
+      "proportion": "body",
+      "motion": "static",
+      "attachTo": {
+        "partId": "run-front-leg",
+        "point": "ground",
+        "yOnly": true
+      }
+    },
+    {
+      "id": "rearWing",
+      "anchor": {
+        "x": 0.390625,
+        "y": 0.4375
+      },
+      "layer": "rearWing",
+      "proportion": "body",
+      "motion": "body"
+    },
+    {
+      "id": "tailShaft",
+      "anchor": {
+        "x": 0.34375,
+        "y": 0.609375
+      },
+      "layer": "tailShaft",
+      "proportion": "tail",
+      "motion": "tail"
+    },
+    {
+      "id": "tailFin",
+      "anchor": {
+        "x": 0.34375,
+        "y": 0.609375
+      },
+      "layer": "tailFin",
+      "attachTo": {
+        "partId": "stamina-tail",
+        "point": "tip"
+      },
+      "proportion": "tail",
+      "motion": "tail"
+    },
+    {
+      "id": "rearFin",
+      "anchor": {
+        "x": 0.375,
+        "y": 0.609375
+      },
+      "layer": "rearFin",
+      "proportion": "body",
+      "motion": "body"
+    },
+    {
+      "id": "rearLeg",
+      "anchor": {
+        "x": 0.390625,
+        "y": 0.703125
+      },
+      "layer": "rearLeg",
+      "proportion": "limb",
+      "motion": "body"
+    },
+    {
+      "id": "rearHand",
+      "anchor": {
+        "x": 0.390625,
+        "y": 0.59375
+      },
+      "layer": "rearHand",
+      "proportion": "limb",
+      "motion": "body"
+    },
+    {
+      "id": "body",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5625
+      },
+      "layer": "body",
+      "proportion": "body",
+      "motion": "body"
+    },
+    {
+      "id": "shoulder",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "layer": "shoulder",
+      "proportion": "limb",
+      "motion": "body"
+    },
+    {
+      "id": "frontLeg",
+      "anchor": {
+        "x": 0.609375,
+        "y": 0.703125
+      },
+      "layer": "frontLeg",
+      "proportion": "limb",
+      "motion": "body"
+    },
+    {
+      "id": "head",
+      "anchor": {
+        "x": 0.578125,
+        "y": 0.40625
+      },
+      "layer": "head",
+      "proportion": "head",
+      "motion": "body"
+    },
+    {
+      "id": "ears",
+      "anchor": {
+        "x": 0.578125,
+        "y": 0.40625
+      },
+      "layer": "ears",
+      "proportion": "head",
+      "motion": "body"
+    },
+    {
+      "id": "frontHand",
+      "anchor": {
+        "x": 0.625,
+        "y": 0.59375
+      },
+      "layer": "frontHand",
+      "proportion": "limb",
+      "motion": "body"
+    },
+    {
+      "id": "frontFin",
+      "anchor": {
+        "x": 0.578125,
+        "y": 0.625
+      },
+      "layer": "frontFin",
+      "proportion": "body",
+      "motion": "body"
+    },
+    {
+      "id": "frontWing",
+      "anchor": {
+        "x": 0.484375,
+        "y": 0.453125
+      },
+      "layer": "frontWing",
+      "proportion": "body",
+      "motion": "body"
+    },
+    {
+      "id": "face",
+      "anchor": {
+        "x": 0.578125,
+        "y": 0.40625
+      },
+      "layer": "face",
+      "proportion": "head",
+      "motion": "body"
+    },
+    {
+      "id": "dorsalTuft",
+      "anchor": {
+        "x": 0.46875,
+        "y": 0.390625
+      },
+      "layer": "dorsalTuft",
+      "proportion": "body",
+      "motion": "body"
+    },
+    {
+      "id": "bodyPattern",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5625
+      },
+      "layer": "bodyPattern",
+      "proportion": "body",
+      "motion": "body"
+    },
+    {
+      "id": "cosmetic",
+      "anchor": {
+        "x": 0.578125,
+        "y": 0.40625
+      },
+      "layer": "cosmetic",
+      "proportion": "head",
+      "motion": "body"
+    }
+  ],
+  "parts": [
+    {
+      "id": "base-shadow",
+      "slot": "shadow",
+      "skill": null,
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "shade",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 16,
+                "y": 3
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 0.16,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "base-body",
+      "slot": "body",
+      "skill": null,
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "primary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 11,
+                "y": 13
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "secondary",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 6.8,
+                "y": 8.5
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 2,
+                "y": 2
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "base-head",
+      "slot": "head",
+      "skill": null,
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "primary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.075,
+              "scale": {
+                "x": 9,
+                "y": 8.5
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": -4
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "secondary",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 4.2,
+                "y": 2.8
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 3,
+                "y": -1
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "base-ears",
+      "slot": "ears",
+      "skill": null,
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "primary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.13,
+              "scale": {
+                "x": 2.8,
+                "y": 3.8
+              },
+              "rotation": -0.3,
+              "offset": {
+                "x": -5,
+                "y": -10.6
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.13,
+              "scale": {
+                "x": 2.6,
+                "y": 3.3
+              },
+              "rotation": 0.3,
+              "offset": {
+                "x": 4.5,
+                "y": -10.7
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "variants": {
+            "round": [
+              {
+                "primitive": "ellipse",
+                "radius": {
+                  "x": 1,
+                  "y": 1
+                },
+                "fillRole": "primary",
+                "strokeRole": "shade",
+                "strokeWidth": 0.13,
+                "scale": {
+                  "x": 2.8,
+                  "y": 3.8
+                },
+                "rotation": -0.3,
+                "offset": {
+                  "x": -5,
+                  "y": -10.6
+                },
+                "opacity": 1,
+                "saturationMultiplier": 1
+              },
+              {
+                "primitive": "ellipse",
+                "radius": {
+                  "x": 1,
+                  "y": 1
+                },
+                "fillRole": "secondary",
+                "strokeRole": "shade",
+                "strokeWidth": 0.13,
+                "scale": {
+                  "x": 2.6,
+                  "y": 3.3
+                },
+                "rotation": 0.3,
+                "offset": {
+                  "x": 4.5,
+                  "y": -10.7
+                },
+                "opacity": 1,
+                "saturationMultiplier": 1
+              }
+            ],
+            "pointed": [
+              {
+                "primitive": "polygon",
+                "fillRole": "primary",
+                "strokeRole": "shade",
+                "strokeWidth": 0.13,
+                "scale": {
+                  "x": 2.8,
+                  "y": 3.8
+                },
+                "rotation": -0.3,
+                "offset": {
+                  "x": -5,
+                  "y": -10.6
+                },
+                "opacity": 1,
+                "saturationMultiplier": 1,
+                "smoothing": true,
+                "points": [
+                  {
+                    "x": -1,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": -1.5
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  }
+                ]
+              },
+              {
+                "primitive": "polygon",
+                "fillRole": "secondary",
+                "strokeRole": "shade",
+                "strokeWidth": 0.13,
+                "scale": {
+                  "x": 2.6,
+                  "y": 3.3
+                },
+                "rotation": 0.3,
+                "offset": {
+                  "x": 4.5,
+                  "y": -10.7
+                },
+                "opacity": 1,
+                "saturationMultiplier": 1,
+                "smoothing": true,
+                "points": [
+                  {
+                    "x": -1,
+                    "y": 1
+                  },
+                  {
+                    "x": 0,
+                    "y": -1.5
+                  },
+                  {
+                    "x": 1,
+                    "y": 1
+                  }
+                ]
+              }
+            ],
+            "folded": [
+              {
+                "primitive": "polygon",
+                "fillRole": "primary",
+                "strokeRole": "shade",
+                "strokeWidth": 0.13,
+                "scale": {
+                  "x": 2.8,
+                  "y": 3.8
+                },
+                "rotation": -0.3,
+                "offset": {
+                  "x": -5,
+                  "y": -10.6
+                },
+                "opacity": 1,
+                "saturationMultiplier": 1,
+                "smoothing": true,
+                "points": [
+                  {
+                    "x": -1,
+                    "y": -0.8
+                  },
+                  {
+                    "x": 1,
+                    "y": -1.2
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 0.8
+                  },
+                  {
+                    "x": -0.5,
+                    "y": 0.4
+                  }
+                ]
+              },
+              {
+                "primitive": "polygon",
+                "fillRole": "secondary",
+                "strokeRole": "shade",
+                "strokeWidth": 0.13,
+                "scale": {
+                  "x": 2.6,
+                  "y": 3.3
+                },
+                "rotation": 0.3,
+                "offset": {
+                  "x": 4.5,
+                  "y": -10.7
+                },
+                "opacity": 1,
+                "saturationMultiplier": 1,
+                "smoothing": true,
+                "points": [
+                  {
+                    "x": -1,
+                    "y": -0.8
+                  },
+                  {
+                    "x": 1,
+                    "y": -1.2
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 0.8
+                  },
+                  {
+                    "x": -0.5,
+                    "y": 0.4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "base-face",
+      "slot": "face",
+      "skill": null,
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "eye",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 0.9,
+                "y": 1.25
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 2.7,
+                "y": -4.5
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1,
+              "motion": "eye"
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "eye",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 0.6,
+                "y": 0.8
+              },
+              "rotation": 0,
+              "offset": {
+                "x": -2.7,
+                "y": -4.7
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1,
+              "motion": "eye"
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "shade",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 1.2,
+                "y": 0.8
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 6.3,
+                "y": -2
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.8,
+                  "y": 0.5
+                },
+                {
+                  "x": 1.6,
+                  "y": 0
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.6,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 2,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "run-rear-leg",
+      "slot": "rearLeg",
+      "skill": "run",
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -3
+                },
+                {
+                  "x": 0.45,
+                  "y": -3
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 3.1,
+                "y": 2.8
+              },
+              "rotation": 0.0,
+              "offset": {
+                "x": 0.0,
+                "y": 8.0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 10.8
+            }
+          }
+        },
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 3.5500000000000003,
+                "y": 3.65
+              },
+              "rotation": -0.07,
+              "offset": {
+                "x": 0.35,
+                "y": 7.4
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.05
+            }
+          }
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.0,
+                "y": 4.5
+              },
+              "rotation": -0.14,
+              "offset": {
+                "x": 0.7,
+                "y": 6.8
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.3
+            }
+          }
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.45,
+                "y": 5.35
+              },
+              "rotation": -0.21000000000000002,
+              "offset": {
+                "x": 1.0499999999999998,
+                "y": 6.2
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.55
+            }
+          }
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.9,
+                "y": 6.199999999999999
+              },
+              "rotation": -0.28,
+              "offset": {
+                "x": 1.4,
+                "y": 5.6
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.799999999999999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fly-rear-wing",
+      "slot": "rearWing",
+      "skill": "fly",
+      "tiers": [
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.85,
+                  "y": -0.45
+                },
+                {
+                  "x": -1,
+                  "y": -1
+                },
+                {
+                  "x": -0.35,
+                  "y": -0.8
+                },
+                {
+                  "x": 0.08,
+                  "y": -0.25
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 8.3,
+                "y": 9
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.38,
+                  "y": -0.65
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 8.3,
+                "y": 9
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.85,
+                  "y": -0.45
+                },
+                {
+                  "x": -1,
+                  "y": -1
+                },
+                {
+                  "x": -0.35,
+                  "y": -0.8
+                },
+                {
+                  "x": 0.08,
+                  "y": -0.25
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 11.6,
+                "y": 13
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.38,
+                  "y": -0.65
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 11.6,
+                "y": 13
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.85,
+                  "y": -0.45
+                },
+                {
+                  "x": -1,
+                  "y": -1
+                },
+                {
+                  "x": -0.35,
+                  "y": -0.8
+                },
+                {
+                  "x": 0.08,
+                  "y": -0.25
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 14.899999999999999,
+                "y": 17
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.38,
+                  "y": -0.65
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 14.899999999999999,
+                "y": 17
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.85,
+                  "y": -0.45
+                },
+                {
+                  "x": -1,
+                  "y": -1
+                },
+                {
+                  "x": -0.35,
+                  "y": -0.8
+                },
+                {
+                  "x": 0.08,
+                  "y": -0.25
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 18.2,
+                "y": 21
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            },
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.85,
+                  "y": -0.45
+                },
+                {
+                  "x": -1,
+                  "y": -1
+                },
+                {
+                  "x": -0.35,
+                  "y": -0.8
+                },
+                {
+                  "x": 0.08,
+                  "y": -0.25
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 10.92,
+                "y": 16.8
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.38,
+                  "y": -0.65
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 18.2,
+                "y": 21
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swim-rear-fin",
+      "slot": "rearFin",
+      "skill": "swim",
+      "tiers": [
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": -1,
+                  "y": -0.4
+                },
+                {
+                  "x": -1,
+                  "y": 0.45
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 3.8,
+                "y": 4.1
+              },
+              "rotation": -0.15,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": -1,
+                  "y": -0.4
+                },
+                {
+                  "x": -1,
+                  "y": 0.45
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 5.6,
+                "y": 5.2
+              },
+              "rotation": -0.15,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": -1,
+                  "y": -0.4
+                },
+                {
+                  "x": -1,
+                  "y": 0.45
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 7.4,
+                "y": 6.300000000000001
+              },
+              "rotation": -0.15,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": -1,
+                  "y": -0.4
+                },
+                {
+                  "x": -1,
+                  "y": 0.45
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 9.2,
+                "y": 7.4
+              },
+              "rotation": -0.15,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 0.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "run-front-leg",
+      "slot": "frontLeg",
+      "skill": "run",
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -3
+                },
+                {
+                  "x": 0.45,
+                  "y": -3
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 3.1,
+                "y": 2.8
+              },
+              "rotation": 0.0,
+              "offset": {
+                "x": 0.0,
+                "y": 8.0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 10.8
+            }
+          }
+        },
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 3.5500000000000003,
+                "y": 3.65
+              },
+              "rotation": -0.07,
+              "offset": {
+                "x": 0.35,
+                "y": 7.4
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.05
+            }
+          }
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.0,
+                "y": 4.5
+              },
+              "rotation": -0.14,
+              "offset": {
+                "x": 0.7,
+                "y": 6.8
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.3
+            }
+          }
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.45,
+                "y": 5.35
+              },
+              "rotation": -0.21000000000000002,
+              "offset": {
+                "x": 1.0499999999999998,
+                "y": 6.2
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.55
+            }
+          }
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.45,
+                  "y": -2.2
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.45
+                },
+                {
+                  "x": 1,
+                  "y": 0.75
+                },
+                {
+                  "x": 0.8,
+                  "y": 1
+                },
+                {
+                  "x": -0.7,
+                  "y": 1
+                },
+                {
+                  "x": -0.8,
+                  "y": 0.45
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.9,
+                "y": 6.199999999999999
+              },
+              "rotation": -0.28,
+              "offset": {
+                "x": 1.4,
+                "y": 5.6
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "ground": {
+              "x": 0,
+              "y": 11.799999999999999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fly-front-wing",
+      "slot": "frontWing",
+      "skill": "fly",
+      "tiers": [
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.4,
+                  "y": -0.5
+                },
+                {
+                  "x": -0.15,
+                  "y": -1
+                },
+                {
+                  "x": 0.45,
+                  "y": -0.65
+                },
+                {
+                  "x": 0.4,
+                  "y": -0.15
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 8.3,
+                "y": 9
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.07,
+                  "y": -0.7
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 8.3,
+                "y": 9
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.4,
+                  "y": -0.5
+                },
+                {
+                  "x": -0.15,
+                  "y": -1
+                },
+                {
+                  "x": 0.45,
+                  "y": -0.65
+                },
+                {
+                  "x": 0.4,
+                  "y": -0.15
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 11.6,
+                "y": 13
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.07,
+                  "y": -0.7
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 11.6,
+                "y": 13
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.4,
+                  "y": -0.5
+                },
+                {
+                  "x": -0.15,
+                  "y": -1
+                },
+                {
+                  "x": 0.45,
+                  "y": -0.65
+                },
+                {
+                  "x": 0.4,
+                  "y": -0.15
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 14.899999999999999,
+                "y": 17
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.07,
+                  "y": -0.7
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 14.899999999999999,
+                "y": 17
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.4,
+                  "y": -0.5
+                },
+                {
+                  "x": -0.15,
+                  "y": -1
+                },
+                {
+                  "x": 0.45,
+                  "y": -0.65
+                },
+                {
+                  "x": 0.4,
+                  "y": -0.15
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 18.2,
+                "y": 21
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": -0.4,
+                  "y": -0.5
+                },
+                {
+                  "x": -0.15,
+                  "y": -1
+                },
+                {
+                  "x": 0.45,
+                  "y": -0.65
+                },
+                {
+                  "x": 0.4,
+                  "y": -0.15
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": null,
+              "strokeWidth": 0,
+              "scale": {
+                "x": 10.92,
+                "y": 16.8
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "path",
+              "points": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0.07,
+                  "y": -0.7
+                }
+              ],
+              "smoothing": true,
+              "fillRole": null,
+              "strokeRole": "shade",
+              "strokeWidth": 0.045,
+              "scale": {
+                "x": 18.2,
+                "y": 21
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swim-front-fin",
+      "slot": "frontFin",
+      "skill": "swim",
+      "tiers": [
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": 0.9,
+                  "y": -0.6
+                },
+                {
+                  "x": 1,
+                  "y": 0.5
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 3.8,
+                "y": 4.1
+              },
+              "rotation": 0.2,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": 0.9,
+                  "y": -0.6
+                },
+                {
+                  "x": 1,
+                  "y": 0.5
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 5.6,
+                "y": 5.2
+              },
+              "rotation": 0.2,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": 0.9,
+                  "y": -0.6
+                },
+                {
+                  "x": 1,
+                  "y": 0.5
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 7.4,
+                "y": 6.300000000000001
+              },
+              "rotation": 0.2,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -0.3
+                },
+                {
+                  "x": 0.9,
+                  "y": -0.6
+                },
+                {
+                  "x": 1,
+                  "y": 0.5
+                },
+                {
+                  "x": 0,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.065,
+              "scale": {
+                "x": 9.2,
+                "y": 7.4
+              },
+              "rotation": 0.2,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stamina-tail",
+      "slot": "tailShaft",
+      "skill": "stamina",
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 2,
+                  "y": -2
+                },
+                {
+                  "x": -8.9,
+                  "y": -2.5
+                },
+                {
+                  "x": -11.0,
+                  "y": -3.0
+                },
+                {
+                  "x": -11.0,
+                  "y": -1.0
+                },
+                {
+                  "x": -8.3,
+                  "y": 1.8
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.7,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "tip": {
+              "x": -11.0,
+              "y": -2.0
+            }
+          }
+        },
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 2,
+                  "y": -2
+                },
+                {
+                  "x": -10.915,
+                  "y": -2.5
+                },
+                {
+                  "x": -14.1,
+                  "y": -4.2
+                },
+                {
+                  "x": -14.1,
+                  "y": -2.2
+                },
+                {
+                  "x": -10.004999999999999,
+                  "y": 1.8
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.7,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "tip": {
+              "x": -14.1,
+              "y": -3.2
+            }
+          }
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 2,
+                  "y": -2
+                },
+                {
+                  "x": -12.93,
+                  "y": -2.5
+                },
+                {
+                  "x": -17.2,
+                  "y": -5.4
+                },
+                {
+                  "x": -17.2,
+                  "y": -3.4000000000000004
+                },
+                {
+                  "x": -11.71,
+                  "y": 1.8
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.7,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "tip": {
+              "x": -17.2,
+              "y": -4.4
+            }
+          }
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 2,
+                  "y": -2
+                },
+                {
+                  "x": -14.945,
+                  "y": -2.5
+                },
+                {
+                  "x": -20.3,
+                  "y": -6.6
+                },
+                {
+                  "x": -20.3,
+                  "y": -4.6
+                },
+                {
+                  "x": -13.415000000000001,
+                  "y": 1.8
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.7,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "tip": {
+              "x": -20.3,
+              "y": -5.6
+            }
+          }
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 2,
+                  "y": -2
+                },
+                {
+                  "x": -16.96,
+                  "y": -2.5
+                },
+                {
+                  "x": -23.4,
+                  "y": -7.8
+                },
+                {
+                  "x": -23.4,
+                  "y": -5.8
+                },
+                {
+                  "x": -15.12,
+                  "y": 1.8
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.7,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ],
+          "attachments": {
+            "tip": {
+              "x": -23.4,
+              "y": -6.8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "swim-tail-fan",
+      "slot": "tailFin",
+      "skill": "swim",
+      "tiers": [
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": -5,
+                  "y": -6
+                },
+                {
+                  "x": -8,
+                  "y": -1
+                },
+                {
+                  "x": -5,
+                  "y": 5
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.7,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stamina-crest",
+      "slot": "dorsalTuft",
+      "skill": "stamina",
+      "tiers": [
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -1,
+                  "y": 0.7
+                },
+                {
+                  "x": -1,
+                  "y": -0.3
+                },
+                {
+                  "x": -0.6,
+                  "y": -1
+                },
+                {
+                  "x": -0.2,
+                  "y": -0.45
+                },
+                {
+                  "x": 0.2,
+                  "y": -1.2
+                },
+                {
+                  "x": 0.65,
+                  "y": -0.6
+                },
+                {
+                  "x": 1,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 3.0,
+                "y": 2.5
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -1,
+                  "y": 0.7
+                },
+                {
+                  "x": -1,
+                  "y": -0.3
+                },
+                {
+                  "x": -0.6,
+                  "y": -1
+                },
+                {
+                  "x": -0.2,
+                  "y": -0.45
+                },
+                {
+                  "x": 0.2,
+                  "y": -1.2
+                },
+                {
+                  "x": 0.65,
+                  "y": -0.6
+                },
+                {
+                  "x": 1,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.3,
+                "y": 3.9
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -1,
+                  "y": 0.7
+                },
+                {
+                  "x": -1,
+                  "y": -0.3
+                },
+                {
+                  "x": -0.6,
+                  "y": -1
+                },
+                {
+                  "x": -0.2,
+                  "y": -0.45
+                },
+                {
+                  "x": 0.2,
+                  "y": -1.2
+                },
+                {
+                  "x": 0.65,
+                  "y": -0.6
+                },
+                {
+                  "x": 1,
+                  "y": 0.4
+                }
+              ],
+              "smoothing": true,
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 5.6,
+                "y": 5.3
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strength-shoulders",
+      "slot": "shoulder",
+      "skill": "strength",
+      "tiers": [
+        {
+          "tier": 1,
+          "levelThreshold": 10,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "primary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.08,
+              "scale": {
+                "x": 6,
+                "y": 3.9000000000000004
+              },
+              "rotation": -0.16,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 2.7,
+                "y": 3.9
+              },
+              "rotation": -0.3,
+              "offset": {
+                "x": 8,
+                "y": 6
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "levelThreshold": 25,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "primary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.08,
+              "scale": {
+                "x": 7,
+                "y": 4.6
+              },
+              "rotation": -0.16,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 3.4,
+                "y": 4.8
+              },
+              "rotation": -0.3,
+              "offset": {
+                "x": 8,
+                "y": 6
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "levelThreshold": 45,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "primary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.08,
+              "scale": {
+                "x": 8,
+                "y": 5.3
+              },
+              "rotation": -0.16,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.1,
+                "y": 5.7
+              },
+              "rotation": -0.3,
+              "offset": {
+                "x": 8,
+                "y": 6
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "levelThreshold": 70,
+          "recipe": [
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "primary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.08,
+              "scale": {
+                "x": 9,
+                "y": 6.0
+              },
+              "rotation": -0.16,
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            },
+            {
+              "primitive": "ellipse",
+              "radius": {
+                "x": 1,
+                "y": 1
+              },
+              "fillRole": "secondary",
+              "strokeRole": "shade",
+              "strokeWidth": 0.12,
+              "scale": {
+                "x": 4.8,
+                "y": 6.6
+              },
+              "rotation": -0.3,
+              "offset": {
+                "x": 8,
+                "y": 6
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmetic-ribbon",
+      "slot": "cosmetic",
+      "skill": null,
+      "cosmetic": "ribbon",
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.6,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": -8
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1,
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -7,
+                  "y": -3
+                },
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 7,
+                  "y": -3
+                },
+                {
+                  "x": 6,
+                  "y": 4
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": -6,
+                  "y": 4
+                }
+              ],
+              "smoothing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmetic-leaf_crown",
+      "slot": "cosmetic",
+      "skill": null,
+      "cosmetic": "leaf_crown",
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.6,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": -8
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1,
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": -10,
+                  "y": 0
+                },
+                {
+                  "x": -9,
+                  "y": -5
+                },
+                {
+                  "x": -4,
+                  "y": -2
+                },
+                {
+                  "x": 0,
+                  "y": -7
+                },
+                {
+                  "x": 4,
+                  "y": -2
+                },
+                {
+                  "x": 9,
+                  "y": -5
+                },
+                {
+                  "x": 10,
+                  "y": 0
+                }
+              ],
+              "smoothing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cosmetic-star_pin",
+      "slot": "cosmetic",
+      "skill": null,
+      "cosmetic": "star_pin",
+      "tiers": [
+        {
+          "tier": 0,
+          "levelThreshold": 0,
+          "recipe": [
+            {
+              "fillRole": "accent",
+              "strokeRole": "shade",
+              "strokeWidth": 0.6,
+              "scale": {
+                "x": 1,
+                "y": 1
+              },
+              "rotation": 0,
+              "offset": {
+                "x": 0,
+                "y": -8
+              },
+              "opacity": 1,
+              "saturationMultiplier": 1,
+              "primitive": "polygon",
+              "points": [
+                {
+                  "x": 0,
+                  "y": -6
+                },
+                {
+                  "x": 2,
+                  "y": -2
+                },
+                {
+                  "x": 6,
+                  "y": -2
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 6
+                },
+                {
+                  "x": 0,
+                  "y": 3
+                },
+                {
+                  "x": -4,
+                  "y": 6
+                },
+                {
+                  "x": -3,
+                  "y": 1
+                },
+                {
+                  "x": -6,
+                  "y": -2
+                },
+                {
+                  "x": -2,
+                  "y": -2
+                }
+              ],
+              "smoothing": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layerOrder": [
+    "shadow",
+    "rearWing",
+    "tailShaft",
+    "tailFin",
+    "rearFin",
+    "rearLeg",
+    "rearHand",
+    "body",
+    "bodyPattern",
+    "shoulder",
+    "frontLeg",
+    "head",
+    "ears",
+    "frontHand",
+    "frontFin",
+    "frontWing",
+    "face",
+    "dorsalTuft",
+    "cosmetic",
+    "thought"
+  ],
+  "conflictRule": "highest-tier-skill-order",
+  "skillOrder": [
+    "run",
+    "swim",
+    "fly",
+    "strength",
+    "stamina"
+  ],
+  "dormant": {
+    "egg": [
+      {
+        "primitive": "ellipse",
+        "radius": {
+          "x": 1,
+          "y": 1
+        },
+        "fillRole": "primary",
+        "strokeRole": "shade",
+        "strokeWidth": 0.09,
+        "scale": {
+          "x": 7.6,
+          "y": 11.2
+        },
+        "rotation": 0,
+        "offset": {
+          "x": 0,
+          "y": -4
+        },
+        "opacity": 1,
+        "saturationMultiplier": 1
+      },
+      {
+        "primitive": "ellipse",
+        "radius": {
+          "x": 1,
+          "y": 1
+        },
+        "fillRole": "accent",
+        "strokeRole": null,
+        "strokeWidth": 0,
+        "scale": {
+          "x": 2,
+          "y": 3
+        },
+        "rotation": -0.4,
+        "offset": {
+          "x": 2,
+          "y": -4
+        },
+        "opacity": 1,
+        "saturationMultiplier": 1
+      }
+    ],
+    "cocoon": [
+      {
+        "primitive": "ellipse",
+        "radius": {
+          "x": 1,
+          "y": 1
+        },
+        "fillRole": "secondary",
+        "strokeRole": "shade",
+        "strokeWidth": 0.09,
+        "scale": {
+          "x": 8.4,
+          "y": 11
+        },
+        "rotation": 0,
+        "offset": {
+          "x": 0,
+          "y": -4
+        },
+        "opacity": 1,
+        "saturationMultiplier": 1
+      },
+      {
+        "primitive": "path",
+        "points": [
+          {
+            "x": -6,
+            "y": -7
+          },
+          {
+            "x": 0,
+            "y": -9
+          },
+          {
+            "x": 6,
+            "y": -7
+          },
+          {
+            "x": -6,
+            "y": -1
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": -1
+          }
+        ],
+        "smoothing": true,
+        "fillRole": null,
+        "strokeRole": "shade",
+        "strokeWidth": 0.7,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "rotation": 0,
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "opacity": 1,
+        "saturationMultiplier": 1
+      }
+    ]
+  },
+  "gallery": {
+    "seed": 7001,
+    "randomCount": 20,
+    "cellPixels": 168,
+    "background": "#f5f4eb",
+    "gridGap": 12,
+    "offspring": 6,
+    "progression": [
+      0,
+      10,
+      25,
+      45,
+      70
+    ],
+    "distinctFraction": 0.95,
+    "rangeCases": [
+      {
+        "id": "light",
+        "patch": {
+          "saturation": 45,
+          "lightness": 66,
+          "baseHue": 60,
+          "accentHue": 280
+        }
+      },
+      {
+        "id": "dark",
+        "patch": {
+          "saturation": 85,
+          "lightness": 38,
+          "baseHue": 250,
+          "accentHue": 40
+        }
+      },
+      {
+        "id": "wide",
+        "patch": {
+          "width": 1.65,
+          "height": 0.7,
+          "head": 0.7,
+          "limb": 0.6,
+          "tail": 1.8
+        }
+      },
+      {
+        "id": "tall",
+        "patch": {
+          "width": 0.65,
+          "height": 1.5,
+          "head": 1.5,
+          "limb": 1.7,
+          "tail": 0.5
+        }
+      },
+      {
+        "id": "small-parts",
+        "patch": {
+          "head": 0.7,
+          "limb": 0.6,
+          "tail": 0.5
+        }
+      },
+      {
+        "id": "large-parts",
+        "patch": {
+          "head": 1.5,
+          "limb": 1.7,
+          "tail": 1.8
+        }
+      },
+      {
+        "id": "pattern-solid",
+        "patch": {
+          "pattern": "solid"
+        }
+      },
+      {
+        "id": "pattern-spots",
+        "patch": {
+          "pattern": "spots"
+        }
+      },
+      {
+        "id": "pattern-stripes",
+        "patch": {
+          "pattern": "stripes"
+        }
+      },
+      {
+        "id": "pattern-marbled",
+        "patch": {
+          "pattern": "marbled"
+        }
+      },
+      {
+        "id": "ears-round",
+        "patch": {
+          "ears": "round"
+        }
+      },
+      {
+        "id": "ears-pointed",
+        "patch": {
+          "ears": "pointed"
+        }
+      },
+      {
+        "id": "ears-folded",
+        "patch": {
+          "ears": "folded"
+        }
+      }
+    ]
+  },
+  "cues": {
+    "levelUpColor": "#ffe4a0",
+    "levelUpRadiusTiles": 1.6,
+    "levelUpLineWidthTiles": 0.14
+  },
+  "selection": {
+    "color": "#5c7a54",
+    "strokeWidthTiles": 0.065,
+    "dashTiles": [
+      0.18,
+      0.16
+    ],
+    "offsetYTiles": 0.35,
+    "radiusTiles": {
+      "x": 1.4,
+      "y": 0.7
+    }
+  },
+  "palette": {
+    "saturationBounds": [
+      0,
+      88
+    ],
+    "lightnessBounds": [
+      16,
+      86
+    ],
+    "roles": {
+      "primary": {
+        "hueGene": "baseHue",
+        "saturation": [
+          45,
+          85
+        ],
+        "lightness": [
+          38,
+          66
+        ],
+        "alpha": 1
+      },
+      "secondary": {
+        "hueGene": "baseHue",
+        "saturation": [
+          30,
+          65
+        ],
+        "lightness": [
+          65,
+          82
+        ],
+        "alpha": 1
+      },
+      "accent": {
+        "hueGene": "accentHue",
+        "saturation": [
+          45,
+          85
+        ],
+        "lightness": [
+          38,
+          62
+        ],
+        "alpha": 1
+      },
+      "shade": {
+        "hueGene": "baseHue",
+        "saturation": [
+          12,
+          30
+        ],
+        "lightness": [
+          16,
+          24
+        ],
+        "alpha": 1
+      },
+      "eye": {
+        "hueGene": "eyeHue",
+        "saturation": [
+          45,
+          85
+        ],
+        "lightness": [
+          22,
+          34
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "proportions": {
+    "width": [
+      0.65,
+      1.65
+    ],
+    "height": [
+      0.7,
+      1.5
+    ],
+    "head": [
+      0.7,
+      1.5
+    ],
+    "limb": [
+      0.6,
+      1.7
+    ],
+    "tail": [
+      0.5,
+      1.8
+    ]
+  },
+  "pattern": {
+    "fallbackSeed": 7,
+    "spots": 9,
+    "stripes": 6,
+    "marbled": 4,
+    "minRadius": 0.07,
+    "maxRadius": 0.16,
+    "stripeWidth": 0.12,
+    "opacity": 0.65,
+    "margin": 1.25,
+    "tilt": 0.3,
+    "amplitude": 0.22,
+    "points": 7
+  },
+  "modifiers": {
+    "maximum": 1,
+    "maximumPerType": 1,
+    "strengthPerFruit": 0.025,
+    "maximumStrength": 0.18,
+    "blendWeight": 0.2,
+    "halfLifeDays": 1,
+    "expiryDays": 8,
+    "minimumStrength": 0.0001
+  },
+  "animation": {
+    "breathing": 0.02,
+    "breathingSeconds": 3,
+    "bobPixels": 0.5,
+    "swayRadians": 0.035,
+    "tiltRadians": 0.025,
+    "blinkSeconds": 0.12,
+    "blinkIntervalSeconds": 5,
+    "closedEyeScale": 0.12,
+    "tiredScale": 0.96,
+    "moodThreshold": 0.4,
+    "boundsMargin": 6
+  },
+  "cache": {
+    "maximum": 256,
+    "scaleQuantum": 0.125,
+    "rasterPixelBudget": 16777216
+  },
+  "bench": {
+    "creatures": 30,
+    "iterations": 300,
+    "warmup": 3
+  }
+}

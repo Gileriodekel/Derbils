@@ -1,0 +1,54 @@
+{
+  "defaults": [
+    {
+      "kind": "sunapple",
+      "x": 10,
+      "y": 30
+    },
+    {
+      "kind": "dewberry",
+      "x": 12,
+      "y": 30
+    },
+    {
+      "kind": "cloudplum",
+      "x": 14,
+      "y": 30
+    },
+    {
+      "kind": "vinefig",
+      "x": 16,
+      "y": 30
+    },
+    {
+      "kind": "stonepear",
+      "x": 18,
+      "y": 30
+    },
+    {
+      "kind": "ambermelon",
+      "x": 20,
+      "y": 30
+    },
+    {
+      "kind": "moonpeach",
+      "x": 10,
+      "y": 34
+    },
+    {
+      "kind": "sparkcherry",
+      "x": 14,
+      "y": 34
+    },
+    {
+      "kind": "sunapple",
+      "x": 18,
+      "y": 34
+    },
+    {
+      "kind": "vinefig",
+      "x": 22,
+      "y": 34
+    }
+  ]
+}

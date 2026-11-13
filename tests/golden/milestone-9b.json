@@ -1,0 +1,60 @@
+{
+  "algorithm": "fnv1a64-utf16-sorted-json",
+  "seeds": [
+    271828,
+    314159,
+    161803
+  ],
+  "checkpoints": [
+    1000,
+    20000,
+    100000
+  ],
+  "hashes": [
+    {
+      "seed": 271828,
+      "tick": 1000,
+      "hash": "23acb8ad167d5cbd"
+    },
+    {
+      "seed": 271828,
+      "tick": 20000,
+      "hash": "03a427492ef6d024"
+    },
+    {
+      "seed": 271828,
+      "tick": 100000,
+      "hash": "9af0c4e75425dad1"
+    },
+    {
+      "seed": 314159,
+      "tick": 1000,
+      "hash": "344406e78c9ab835"
+    },
+    {
+      "seed": 314159,
+      "tick": 20000,
+      "hash": "7f3b5307243ea027"
+    },
+    {
+      "seed": 314159,
+      "tick": 100000,
+      "hash": "6317df899104073f"
+    },
+    {
+      "seed": 161803,
+      "tick": 1000,
+      "hash": "90d2544ed0943c4b"
+    },
+    {
+      "seed": 161803,
+      "tick": 20000,
+      "hash": "c33798cd45d4def0"
+    },
+    {
+      "seed": 161803,
+      "tick": 100000,
+      "hash": "8a9b2e88da4935ad"
+    }
+  ]
+}

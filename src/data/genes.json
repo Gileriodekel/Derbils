@@ -1,0 +1,530 @@
+[
+  {
+    "id": "run",
+    "chromosome": "aptitude",
+    "dominanceType": "partial",
+    "traitGroup": "aptitudes",
+    "trait": "run",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      64,
+      192
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "swim",
+    "chromosome": "aptitude",
+    "dominanceType": "partial",
+    "traitGroup": "aptitudes",
+    "trait": "swim",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      64,
+      192
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "fly",
+    "chromosome": "aptitude",
+    "dominanceType": "partial",
+    "traitGroup": "aptitudes",
+    "trait": "fly",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      64,
+      192
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "strength",
+    "chromosome": "aptitude",
+    "dominanceType": "partial",
+    "traitGroup": "aptitudes",
+    "trait": "strength",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      64,
+      192
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "stamina",
+    "chromosome": "aptitude",
+    "dominanceType": "partial",
+    "traitGroup": "aptitudes",
+    "trait": "stamina",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      64,
+      192
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "baseHue",
+    "chromosome": "palette",
+    "dominanceType": "circular",
+    "traitGroup": "palette",
+    "trait": "baseHue",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      360
+    ]
+  },
+  {
+    "id": "accentHue",
+    "chromosome": "palette",
+    "dominanceType": "circular",
+    "traitGroup": "palette",
+    "trait": "accentHue",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      360
+    ]
+  },
+  {
+    "id": "eyeHue",
+    "chromosome": "palette",
+    "dominanceType": "circular",
+    "traitGroup": "palette",
+    "trait": "eyeHue",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      360
+    ]
+  },
+  {
+    "id": "saturation",
+    "chromosome": "palette",
+    "dominanceType": "partial",
+    "traitGroup": "palette",
+    "trait": "saturation",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      45,
+      85
+    ]
+  },
+  {
+    "id": "lightness",
+    "chromosome": "palette",
+    "dominanceType": "partial",
+    "traitGroup": "palette",
+    "trait": "lightness",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      38,
+      66
+    ]
+  },
+  {
+    "id": "pattern",
+    "chromosome": "palette",
+    "dominanceType": "categorical",
+    "traitGroup": "palette",
+    "trait": "pattern",
+    "options": [
+      {
+        "value": "solid",
+        "dominance": 1,
+        "founderWeight": 0.4
+      },
+      {
+        "value": "spots",
+        "dominance": 0,
+        "founderWeight": 0.25
+      },
+      {
+        "value": "stripes",
+        "dominance": 0,
+        "founderWeight": 0.25
+      },
+      {
+        "value": "marbled",
+        "dominance": 0,
+        "founderWeight": 0.1
+      }
+    ]
+  },
+  {
+    "id": "width",
+    "chromosome": "shape",
+    "dominanceType": "partial",
+    "traitGroup": "body",
+    "trait": "width",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0.65,
+      1.65
+    ]
+  },
+  {
+    "id": "height",
+    "chromosome": "shape",
+    "dominanceType": "partial",
+    "traitGroup": "body",
+    "trait": "height",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0.7,
+      1.5
+    ]
+  },
+  {
+    "id": "head",
+    "chromosome": "shape",
+    "dominanceType": "partial",
+    "traitGroup": "body",
+    "trait": "head",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0.6,
+      1.7
+    ]
+  },
+  {
+    "id": "limb",
+    "chromosome": "shape",
+    "dominanceType": "partial",
+    "traitGroup": "body",
+    "trait": "limb",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0.6,
+      1.7
+    ]
+  },
+  {
+    "id": "tail",
+    "chromosome": "shape",
+    "dominanceType": "partial",
+    "traitGroup": "body",
+    "trait": "tail",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0.5,
+      1.8
+    ]
+  },
+  {
+    "id": "ears",
+    "chromosome": "shape",
+    "dominanceType": "categorical",
+    "traitGroup": "body",
+    "trait": "ears",
+    "options": [
+      {
+        "value": "round",
+        "dominance": 1,
+        "founderWeight": 0.5
+      },
+      {
+        "value": "pointed",
+        "dominance": 0,
+        "founderWeight": 0.35
+      },
+      {
+        "value": "folded",
+        "dominance": 0,
+        "founderWeight": 0.15
+      }
+    ]
+  },
+  {
+    "id": "sociability",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "personality",
+    "trait": "sociability",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "curiosity",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "personality",
+    "trait": "curiosity",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "competitiveness",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "personality",
+    "trait": "competitiveness",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "boldness",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "personality",
+    "trait": "boldness",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "gentleness",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "personality",
+    "trait": "gentleness",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "sweet",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "tasteBias",
+    "trait": "sweet",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "tart",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "tasteBias",
+    "trait": "tart",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "earthy",
+    "chromosome": "temperament",
+    "dominanceType": "partial",
+    "traitGroup": "tasteBias",
+    "trait": "earthy",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "feetHue",
+    "chromosome": "palette",
+    "dominanceType": "circular",
+    "traitGroup": "palette",
+    "trait": "feetHue",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      360
+    ]
+  },
+  {
+    "id": "tailHue",
+    "chromosome": "palette",
+    "dominanceType": "circular",
+    "traitGroup": "palette",
+    "trait": "tailHue",
+    "alleleRange": [
+      0,
+      255
+    ],
+    "founderRange": [
+      0,
+      255
+    ],
+    "traitRange": [
+      0,
+      360
+    ]
+  }
+]

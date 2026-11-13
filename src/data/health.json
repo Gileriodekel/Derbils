@@ -1,0 +1,308 @@
+{
+  "full": {
+    "ticks": 500000,
+    "seeds": [
+      271828,
+      314159,
+      161803,
+      57721,
+      141421
+    ],
+    "sampleEveryTicks": 1000,
+    "bands": {
+      "population.mean": [
+        12,
+        24
+      ],
+      "population.minimum": [
+        1,
+        30
+      ],
+      "population.maximum": [
+        12,
+        30
+      ],
+      "population.rescues": [
+        0,
+        0
+      ],
+      "population.starvationDeaths": [
+        0,
+        0
+      ],
+      "population.exhaustionDeaths": [
+        0,
+        0
+      ],
+      "life.meanLifespan": [
+        58200,
+        58800
+      ],
+      "life.generationsPer100k": [
+        0.2,
+        20
+      ],
+      "genetics.minimumDiversity": [
+        0.4,
+        1
+      ],
+      "genetics.minimumAlleles": [
+        2,
+        60
+      ],
+      "genetics.aptitudeDrift": [
+        0,
+        0.3
+      ],
+      "skills.meanCapFraction": [
+        0.05,
+        0.9
+      ],
+      "skills.maxedShare": [
+        0,
+        0.8
+      ],
+      "skills.dominantShare": [
+        0,
+        0.7
+      ],
+      "skills.partsPerAdult": [
+        2,
+        12
+      ],
+      "behavior.selfCare": [
+        0.05,
+        0.85
+      ],
+      "behavior.rest": [
+        0.01,
+        0.8
+      ],
+      "behavior.training": [
+        0.005,
+        0.9
+      ],
+      "behavior.social": [
+        0.0001,
+        0.8
+      ],
+      "behavior.travel": [
+        0,
+        0.8
+      ],
+      "social.positiveShare": [
+        0.05,
+        0.995
+      ],
+      "social.meanDegree": [
+        1,
+        16
+      ],
+      "social.maximumDegree": [
+        1,
+        16
+      ],
+      "social.friendships": [
+        1,
+        10000000
+      ],
+      "social.rivalries": [
+        1,
+        10000000
+      ],
+      "social.bondedMatingShare": [
+        0,
+        1
+      ],
+      "competitions.fillRate": [
+        0.65,
+        1
+      ],
+      "competitions.cancellationRate": [
+        0,
+        0.35
+      ],
+      "competitions.winConcentration": [
+        0,
+        0.35
+      ],
+      "prizes.inventoryMinimum": [
+        0,
+        999
+      ],
+      "prizes.inventoryMaximum": [
+        0,
+        999
+      ],
+      "prizes.rareEatenPer100k": [
+        1,
+        1000
+      ],
+      "events.perHour": [
+        2,
+        90
+      ]
+    }
+  },
+  "quick": {
+    "ticks": 20000,
+    "seeds": [
+      271828,
+      314159
+    ],
+    "sampleEveryTicks": 200,
+    "bands": {
+      "population.mean": [
+        12,
+        30
+      ],
+      "population.minimum": [
+        1,
+        30
+      ],
+      "population.maximum": [
+        12,
+        30
+      ],
+      "population.rescues": [
+        0,
+        0
+      ],
+      "population.starvationDeaths": [
+        0,
+        0
+      ],
+      "population.exhaustionDeaths": [
+        0,
+        0
+      ],
+      "life.meanLifespan": [
+        0,
+        58800
+      ],
+      "life.generationsPer100k": [
+        0,
+        20
+      ],
+      "genetics.minimumDiversity": [
+        0.4,
+        1
+      ],
+      "genetics.minimumAlleles": [
+        2,
+        60
+      ],
+      "genetics.aptitudeDrift": [
+        0,
+        0.3
+      ],
+      "skills.meanCapFraction": [
+        0.05,
+        0.9
+      ],
+      "skills.maxedShare": [
+        0,
+        0.8
+      ],
+      "skills.dominantShare": [
+        0,
+        0.7
+      ],
+      "skills.partsPerAdult": [
+        2,
+        12
+      ],
+      "behavior.selfCare": [
+        0.05,
+        0.85
+      ],
+      "behavior.rest": [
+        0.01,
+        0.8
+      ],
+      "behavior.training": [
+        0.005,
+        0.9
+      ],
+      "behavior.social": [
+        0.0001,
+        0.8
+      ],
+      "behavior.travel": [
+        0,
+        0.8
+      ],
+      "social.positiveShare": [
+        0.05,
+        0.995
+      ],
+      "social.meanDegree": [
+        1,
+        16
+      ],
+      "social.maximumDegree": [
+        1,
+        16
+      ],
+      "social.friendships": [
+        1,
+        10000000
+      ],
+      "social.rivalries": [
+        0,
+        10000000
+      ],
+      "social.bondedMatingShare": [
+        0,
+        1
+      ],
+      "competitions.fillRate": [
+        0.65,
+        1
+      ],
+      "competitions.cancellationRate": [
+        0,
+        0.35
+      ],
+      "competitions.winConcentration": [
+        0,
+        1
+      ],
+      "prizes.inventoryMinimum": [
+        0,
+        999
+      ],
+      "prizes.inventoryMaximum": [
+        0,
+        999
+      ],
+      "prizes.rareEatenPer100k": [
+        1,
+        1000
+      ],
+      "events.perHour": [
+        2,
+        90
+      ]
+    }
+  },
+  "soak": {
+    "ticks": 5000000,
+    "seeds": [
+      271828,
+      314159,
+      161803,
+      57721,
+      141421
+    ],
+    "validateEveryTicks": 10000,
+    "roundTripChance": 2e-05,
+    "catchUpChance": 2e-05,
+    "maximumChunkTicks": 1000,
+    "shortTicks": 3000,
+    "shortSeeds": [
+      271828,
+      314159
+    ]
+  }
+}

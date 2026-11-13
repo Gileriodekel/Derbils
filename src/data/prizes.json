@@ -1,0 +1,150 @@
+{
+  "maximumRankedPrizes": 3,
+  "maximumFruitPerPrize": 3,
+  "stackCapacity": 999,
+  "looseCapacity": 256,
+  "deliveryWindowTicks": 300,
+  "trophyLimit": 200,
+  "xpPeriodTicks": 1200,
+  "xpPerPeriodCap": 120,
+  "confidenceBonus": 0.03,
+  "confidenceDays": 1,
+  "rankValence": [
+    0.2,
+    0.1,
+    0.1
+  ],
+  "otherValence": 0.03,
+  "starter": {
+    "fruit": {
+      "sunapple": 0,
+      "dewberry": 0,
+      "cloudplum": 0,
+      "vinefig": 0,
+      "stonepear": 0,
+      "ambermelon": 0,
+      "moonpeach": 0,
+      "sparkcherry": 0,
+      "prismpear": 4,
+      "spiralfruit": 4
+    },
+    "seeds": {
+      "sunapple": 2,
+      "dewberry": 2,
+      "cloudplum": 2,
+      "vinefig": 2,
+      "stonepear": 2,
+      "ambermelon": 2,
+      "moonpeach": 2,
+      "sparkcherry": 2,
+      "prismpear": 1,
+      "spiralfruit": 1
+    },
+    "items": {
+      "nest": 0,
+      "bed": 0,
+      "track": 0,
+      "wind_perch": 0,
+      "push_stone": 0,
+      "trail_marker": 0,
+      "toy": 0,
+      "competition_pad": 0,
+      "lantern": 0
+    },
+    "cosmetics": {
+      "ribbon": 3,
+      "leaf_crown": 0,
+      "star_pin": 0
+    }
+  },
+  "cache": {
+    "fruit": [
+      "prismpear",
+      "spiralfruit"
+    ],
+    "fruitQuantity": 2,
+    "seedQuantity": 1,
+    "cosmetics": [
+      "ribbon",
+      "leaf_crown",
+      "star_pin"
+    ],
+    "cosmeticQuantity": 1
+  },
+  "autoPrizes": false,
+  "auto": [
+    {
+      "placements": [
+        {
+          "rank": 1,
+          "kind": "fruit",
+          "id": "prismpear",
+          "quantity": 1
+        },
+        {
+          "rank": 2,
+          "kind": "fruit",
+          "id": "spiralfruit",
+          "quantity": 1
+        },
+        {
+          "rank": 3,
+          "kind": "cosmetic",
+          "id": "ribbon",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "placements": [
+        {
+          "rank": 1,
+          "kind": "cosmetic",
+          "id": "leaf_crown",
+          "quantity": 1
+        },
+        {
+          "rank": 2,
+          "kind": "fruit",
+          "id": "prismpear",
+          "quantity": 1
+        },
+        {
+          "rank": 3,
+          "kind": "seed",
+          "id": "spiralfruit",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "placements": [
+        {
+          "rank": 1,
+          "kind": "cosmetic",
+          "id": "star_pin",
+          "quantity": 1
+        },
+        {
+          "rank": 2,
+          "kind": "fruit",
+          "id": "spiralfruit",
+          "quantity": 1
+        },
+        {
+          "rank": 3,
+          "kind": "seed",
+          "id": "prismpear",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "report": {
+    "maximumWinShare": 0.35
+  },
+  "rareSourceReplacement": {
+    "prismpear": "sunapple",
+    "spiralfruit": "vinefig"
+  }
+}

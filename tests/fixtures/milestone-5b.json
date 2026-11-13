@@ -1,0 +1,1411 @@
+{
+  "schemaVersion": 5,
+  "rulesVersion": "0.5.1",
+  "saveId": "world_271828",
+  "revision": 0,
+  "clock": {
+    "tick": 417,
+    "wallAnchorMs": 0,
+    "speed": 1,
+    "offlineEnabled": false,
+    "fractionalSeconds": 0,
+    "catchup": null
+  },
+  "rng": {
+    "world": 1716820148,
+    "genetics": 3677902403,
+    "competition": 1716820148
+  },
+  "counters": {
+    "creature": 2,
+    "organism": 2,
+    "item": 6,
+    "plant": 11,
+    "fruit": 5,
+    "session": 1,
+    "competition": 1,
+    "event": 2
+  },
+  "settings": {
+    "autoBreed": false,
+    "autoImmigration": false,
+    "capacity": 8,
+    "autoReplaceOnDeath": true
+  },
+  "breedingRules": {
+    "blockedPairs": [],
+    "encouragedPairs": [],
+    "exclusivePairs": []
+  },
+  "world": {
+    "width": 64,
+    "height": 48,
+    "terrainRle": [
+      [
+        5,
+        65
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        0,
+        45
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        0,
+        45
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        0,
+        45
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        0,
+        45
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        0,
+        26
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        0,
+        22
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        37
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        36
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        35
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        34
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        34
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        34
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        34
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        34
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        34
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        35
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        36
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        25
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        39
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        43
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        62
+      ],
+      [
+        5,
+        65
+      ]
+    ],
+    "terrainRevision": 2,
+    "items": [
+      {
+        "skill": "run",
+        "x": 26,
+        "y": 24,
+        "width": 1,
+        "height": 1,
+        "id": "i_00000001"
+      },
+      {
+        "skill": "fly",
+        "x": 27,
+        "y": 28,
+        "width": 1,
+        "height": 1,
+        "id": "i_00000002"
+      },
+      {
+        "skill": "climb",
+        "x": 22,
+        "y": 27,
+        "width": 2,
+        "height": 1,
+        "id": "i_00000003"
+      },
+      {
+        "skill": "strength",
+        "x": 22,
+        "y": 24,
+        "width": 1,
+        "height": 1,
+        "id": "i_00000004"
+      },
+      {
+        "skill": "stamina",
+        "x": 24,
+        "y": 28,
+        "width": 1,
+        "height": 1,
+        "id": "i_00000005"
+      }
+    ],
+    "plants": [
+      {
+        "id": "p_00000001",
+        "kind": "sunapple",
+        "x": 10,
+        "y": 30,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000002",
+        "kind": "dewberry",
+        "x": 12,
+        "y": 30,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000003",
+        "kind": "cloudplum",
+        "x": 14,
+        "y": 30,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000004",
+        "kind": "vinefig",
+        "x": 16,
+        "y": 30,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000005",
+        "kind": "stonepear",
+        "x": 18,
+        "y": 30,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000006",
+        "kind": "ambermelon",
+        "x": 20,
+        "y": 30,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000007",
+        "kind": "moonpeach",
+        "x": 10,
+        "y": 34,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000008",
+        "kind": "sparkcherry",
+        "x": 14,
+        "y": 34,
+        "matureAtTick": 0,
+        "ripe": 6,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000009",
+        "kind": "prismpear",
+        "x": 18,
+        "y": 34,
+        "matureAtTick": 0,
+        "ripe": 3,
+        "growthProgress": 0
+      },
+      {
+        "id": "p_00000010",
+        "kind": "spiralfruit",
+        "x": 22,
+        "y": 34,
+        "matureAtTick": 0,
+        "ripe": 3,
+        "growthProgress": 0
+      }
+    ],
+    "looseFruit": [
+      {
+        "id": "f_00000002",
+        "kind": "dewberry",
+        "x": 29.5,
+        "y": 22.5,
+        "droppedTick": 0
+      },
+      {
+        "id": "f_00000004",
+        "kind": "vinefig",
+        "x": 23.5,
+        "y": 20.5,
+        "droppedTick": 0
+      }
+    ],
+    "nextImmigrationTick": 1200,
+    "lastCacheDay": 0
+  },
+  "creatures": [
+    {
+      "id": "c_00000001",
+      "organismId": "o_00000001",
+      "lifeIndex": 0,
+      "displayName": "Pip",
+      "stage": "adult",
+      "stageStartedTick": 0,
+      "age": 8217,
+      "welfare": {
+        "total": 355.78005225000095,
+        "ticks": 417
+      },
+      "position": {
+        "x": 27.5,
+        "y": 24.5
+      },
+      "needs": {
+        "hunger": 25.799999999999766,
+        "fatigue": 17.74000000000006,
+        "boredom": 6.159558823529419,
+        "loneliness": 18.123980392156753,
+        "stress": 0
+      },
+      "mood": 0.6584798676170693,
+      "recentValence": -0.002402698622044939,
+      "xp": {
+        "run": 91.89914235643936,
+        "swim": 123.23571122149745,
+        "fly": 0,
+        "climb": 0,
+        "strength": 0,
+        "stamina": 0
+      },
+      "rng": 818840296,
+      "currentAction": {
+        "kind": "sleep",
+        "target": {
+          "x": 27.5,
+          "y": 24.5
+        },
+        "targetFruitId": null,
+        "path": [],
+        "workTicks": 26
+      },
+      "lastCompletedAction": "graze",
+      "nextDecisionTick": 421,
+      "foodPreferences": {
+        "sunapple": {
+          "learnedMean": 0.009141057673635837,
+          "samples": 1
+        },
+        "dewberry": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "cloudplum": {
+          "learnedMean": 0.010833316072237614,
+          "samples": 1
+        },
+        "vinefig": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "stonepear": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "ambermelon": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "moonpeach": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "sparkcherry": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "prismpear": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "spiralfruit": {
+          "learnedMean": 0,
+          "samples": 0
+        }
+      },
+      "lastFiveFoods": [
+        "sunapple",
+        "cloudplum"
+      ],
+      "lastMeal": {
+        "fruit": "cloudplum",
+        "tick": 259,
+        "preference": -0.05529678296329867,
+        "reward": 0.05416658036118807
+      },
+      "practiceTicks": {
+        "run": 80,
+        "swim": 120,
+        "fly": 0,
+        "climb": 0,
+        "strength": 0,
+        "stamina": 0
+      },
+      "trainingTicks": {
+        "run": 80,
+        "swim": 120,
+        "fly": 0,
+        "climb": 0,
+        "strength": 0,
+        "stamina": 0
+      },
+      "activityPreferences": {
+        "run": {
+          "learnedMean": 0.008560355294117642,
+          "samples": 2
+        },
+        "swim": {
+          "learnedMean": 0.013312284235294215,
+          "samples": 3
+        },
+        "fly": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "climb": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "strength": {
+          "learnedMean": 0,
+          "samples": 0
+        },
+        "stamina": {
+          "learnedMean": 0,
+          "samples": 0
+        }
+      },
+      "skillBonuses": {
+        "run": {
+          "amount": 0.25,
+          "expiresTick": 613
+        },
+        "fly": {
+          "amount": 0.25,
+          "expiresTick": 859
+        }
+      },
+      "lastLevelUp": {
+        "skill": "run",
+        "level": 5,
+        "tick": 345
+      },
+      "genome": {
+        "aptitude": {
+          "haplotypes": [
+            [
+              {
+                "v": 115,
+                "d": 0
+              },
+              {
+                "v": 157,
+                "d": 1
+              },
+              {
+                "v": 69,
+                "d": 1
+              },
+              {
+                "v": 151,
+                "d": 0
+              },
+              {
+                "v": 185,
+                "d": 0
+              },
+              {
+                "v": 64,
+                "d": 1
+              }
+            ],
+            [
+              {
+                "v": 115,
+                "d": 0
+              },
+              {
+                "v": 126,
+                "d": 0
+              },
+              {
+                "v": 146,
+                "d": 0
+              },
+              {
+                "v": 111,
+                "d": 0
+              },
+              {
+                "v": 106,
+                "d": 1
+              },
+              {
+                "v": 139,
+                "d": 0
+              }
+            ]
+          ]
+        },
+        "palette": {
+          "haplotypes": [
+            [
+              {
+                "v": 125,
+                "d": 0
+              },
+              {
+                "v": 1,
+                "d": 0
+              },
+              {
+                "v": 227,
+                "d": 0
+              },
+              {
+                "v": 232,
+                "d": 1
+              },
+              {
+                "v": 18,
+                "d": 1
+              },
+              {
+                "v": "solid",
+                "d": 1
+              }
+            ],
+            [
+              {
+                "v": 147,
+                "d": 0
+              },
+              {
+                "v": 135,
+                "d": 0
+              },
+              {
+                "v": 68,
+                "d": 1
+              },
+              {
+                "v": 83,
+                "d": 0
+              },
+              {
+                "v": 25,
+                "d": 0
+              },
+              {
+                "v": "spots",
+                "d": 0
+              }
+            ]
+          ]
+        },
+        "shape": {
+          "haplotypes": [
+            [
+              {
+                "v": 97,
+                "d": 0
+              },
+              {
+                "v": 220,
+                "d": 1
+              },
+              {
+                "v": 171,
+                "d": 0
+              },
+              {
+                "v": 204,
+                "d": 0
+              },
+              {
+                "v": 155,
+                "d": 0
+              },
+              {
+                "v": "pointed",
+                "d": 0
+              }
+            ],
+            [
+              {
+                "v": 178,
+                "d": 1
+              },
+              {
+                "v": 212,
+                "d": 1
+              },
+              {
+                "v": 100,
+                "d": 1
+              },
+              {
+                "v": 126,
+                "d": 1
+              },
+              {
+                "v": 176,
+                "d": 1
+              },
+              {
+                "v": "round",
+                "d": 1
+              }
+            ]
+          ]
+        },
+        "temperament": {
+          "haplotypes": [
+            [
+              {
+                "v": 150,
+                "d": 0
+              },
+              {
+                "v": 215,
+                "d": 0
+              },
+              {
+                "v": 202,
+                "d": 0
+              },
+              {
+                "v": 101,
+                "d": 1
+              },
+              {
+                "v": 63,
+                "d": 0
+              },
+              {
+                "v": 187,
+                "d": 0
+              },
+              {
+                "v": 233,
+                "d": 0
+              },
+              {
+                "v": 242,
+                "d": 1
+              }
+            ],
+            [
+              {
+                "v": 203,
+                "d": 1
+              },
+              {
+                "v": 253,
+                "d": 0
+              },
+              {
+                "v": 171,
+                "d": 1
+              },
+              {
+                "v": 146,
+                "d": 1
+              },
+              {
+                "v": 177,
+                "d": 1
+              },
+              {
+                "v": 244,
+                "d": 0
+              },
+              {
+                "v": 138,
+                "d": 1
+              },
+              {
+                "v": 107,
+                "d": 1
+              }
+            ]
+          ]
+        }
+      },
+      "personalityDrift": {
+        "sociability": 0,
+        "curiosity": 0,
+        "competitiveness": 0,
+        "boldness": 0.004925354470636788,
+        "gentleness": 0
+      },
+      "lastPersonalityRewardTick": 56
+    }
+  ],
+  "organisms": [
+    {
+      "id": "o_00000001",
+      "parents": [],
+      "appearanceSeed": 1716820148,
+      "lives": [
+        {
+          "creatureId": "c_00000001",
+          "lifeIndex": 0,
+          "displayName": "Pip",
+          "startedTick": 0,
+          "endedTick": null
+        }
+      ]
+    }
+  ],
+  "relationships": [],
+  "sessions": [],
+  "competitions": [],
+  "inventory": {
+    "fruit": {
+      "sunapple": 0,
+      "dewberry": 0,
+      "cloudplum": 0,
+      "vinefig": 0,
+      "stonepear": 0,
+      "ambermelon": 0,
+      "moonpeach": 0,
+      "sparkcherry": 0,
+      "prismpear": 0,
+      "spiralfruit": 0
+    },
+    "seeds": {
+      "sunapple": 0,
+      "dewberry": 0,
+      "cloudplum": 0,
+      "vinefig": 0,
+      "stonepear": 0,
+      "ambermelon": 0,
+      "moonpeach": 0,
+      "sparkcherry": 0,
+      "prismpear": 0,
+      "spiralfruit": 0
+    },
+    "items": {
+      "nest": 0,
+      "bed": 0,
+      "track": 0,
+      "wind_perch": 0,
+      "climbing_frame": 0,
+      "push_stone": 0,
+      "trail_marker": 0,
+      "toy": 0,
+      "competition_pad": 0,
+      "lantern": 0
+    },
+    "cosmetics": {
+      "ribbon": 0,
+      "leaf_crown": 0,
+      "star_pin": 0
+    }
+  },
+  "events": [
+    {
+      "kind": "spawn",
+      "creatureId": "c_00000001",
+      "from": null,
+      "to": "adult",
+      "relatedCreatureId": null,
+      "id": "e_00000001",
+      "tick": 0
+    }
+  ],
+  "lineage": [
+    {
+      "id": "c_00000001",
+      "organismId": "o_00000001",
+      "displayName": "Pip",
+      "parentIds": null,
+      "birthTick": 0,
+      "deathTick": null,
+      "finalStage": null,
+      "ageAtDeath": null,
+      "topSkill": null,
+      "endReason": null
+    }
+  ],
+  "discoveries": []
+}

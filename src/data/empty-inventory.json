@@ -1,0 +1,42 @@
+{
+  "fruit": {
+    "sunapple": 0,
+    "dewberry": 0,
+    "cloudplum": 0,
+    "vinefig": 0,
+    "stonepear": 0,
+    "ambermelon": 0,
+    "moonpeach": 0,
+    "sparkcherry": 0,
+    "prismpear": 0,
+    "spiralfruit": 0
+  },
+  "seeds": {
+    "sunapple": 0,
+    "dewberry": 0,
+    "cloudplum": 0,
+    "vinefig": 0,
+    "stonepear": 0,
+    "ambermelon": 0,
+    "moonpeach": 0,
+    "sparkcherry": 0,
+    "prismpear": 0,
+    "spiralfruit": 0
+  },
+  "items": {
+    "nest": 0,
+    "bed": 0,
+    "track": 0,
+    "wind_perch": 0,
+    "push_stone": 0,
+    "trail_marker": 0,
+    "toy": 0,
+    "competition_pad": 0,
+    "lantern": 0
+  },
+  "cosmetics": {
+    "ribbon": 0,
+    "leaf_crown": 0,
+    "star_pin": 0
+  }
+}

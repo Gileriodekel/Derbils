@@ -1,0 +1,182 @@
+{
+  "eat": {
+    "workTicks": 8,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 0,
+      "boredom": 0,
+      "loneliness": 0,
+      "stress": 0
+    }
+  },
+  "graze": {
+    "workTicks": 45,
+    "effects": {
+      "hunger": -18,
+      "fatigue": 0,
+      "boredom": -2,
+      "loneliness": 0,
+      "stress": 0
+    }
+  },
+  "sleep": {
+    "workTicks": 120,
+    "effects": {
+      "hunger": 0,
+      "fatigue": -36,
+      "boredom": 0,
+      "loneliness": 0,
+      "stress": -6
+    }
+  },
+  "wander": {
+    "workTicks": 30,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 0,
+      "boredom": -8,
+      "loneliness": 0,
+      "stress": -2
+    }
+  },
+  "idle": {
+    "workTicks": 10,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 0,
+      "boredom": 0,
+      "loneliness": 0,
+      "stress": -1
+    }
+  },
+  "train_run": {
+    "workTicks": 40,
+    "effects": {
+      "hunger": 1,
+      "fatigue": 4,
+      "boredom": -12,
+      "loneliness": 0,
+      "stress": 0
+    }
+  },
+  "train_swim": {
+    "workTicks": 40,
+    "effects": {
+      "hunger": 1,
+      "fatigue": 4,
+      "boredom": -12,
+      "loneliness": 0,
+      "stress": 0
+    }
+  },
+  "train_fly": {
+    "workTicks": 40,
+    "effects": {
+      "hunger": 1,
+      "fatigue": 4,
+      "boredom": -12,
+      "loneliness": 0,
+      "stress": 0
+    }
+  },
+  "train_strength": {
+    "workTicks": 40,
+    "effects": {
+      "hunger": 1,
+      "fatigue": 4,
+      "boredom": -12,
+      "loneliness": 0,
+      "stress": 0
+    }
+  },
+  "train_stamina": {
+    "workTicks": 60,
+    "effects": {
+      "hunger": 1.5,
+      "fatigue": 6,
+      "boredom": -18,
+      "loneliness": 0,
+      "stress": 0
+    }
+  },
+  "court": {
+    "workTicks": 40,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 2,
+      "boredom": 0,
+      "loneliness": -15,
+      "stress": 0
+    }
+  },
+  "play": {
+    "workTicks": 20,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 2,
+      "boredom": -20,
+      "loneliness": -18,
+      "stress": 0
+    }
+  },
+  "comfort": {
+    "workTicks": 20,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 0,
+      "boredom": 0,
+      "loneliness": -8,
+      "stress": 0
+    }
+  },
+  "contest": {
+    "workTicks": 40,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 5,
+      "boredom": -18,
+      "loneliness": -10,
+      "stress": 0
+    }
+  },
+  "avoid": {
+    "workTicks": 20,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 0,
+      "boredom": -2,
+      "loneliness": 0,
+      "stress": -4
+    }
+  },
+  "enterCompetition": {
+    "workTicks": 1,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 6,
+      "boredom": -15,
+      "loneliness": -15,
+      "stress": 0
+    }
+  },
+  "attendCompetition": {
+    "workTicks": 1,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 6,
+      "boredom": -15,
+      "loneliness": -15,
+      "stress": 0
+    }
+  },
+  "gather": {
+    "workTicks": 6,
+    "effects": {
+      "hunger": 0,
+      "fatigue": 1,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": 0
+    }
+  }
+}

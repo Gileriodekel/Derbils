@@ -1,0 +1,54 @@
+{
+  "playerEventKinds": [
+    "spawn",
+    "hatch",
+    "stage",
+    "death",
+    "rebirth",
+    "eggLaid",
+    "rescue",
+    "friendship",
+    "rivalry",
+    "mateBondFormed",
+    "mateBondBroken",
+    "competitionResult",
+    "prizeAwarded",
+    "share",
+    "steal",
+    "fight"
+  ],
+  "eventWindowTicks": 1200,
+  "eventRateCap": 30,
+  "feedLimit": 24,
+  "ariaLiveIntervalMs": 5000,
+  "debugRefreshHz": 2,
+  "playerRefreshHz": 5,
+  "textSizes": [
+    14,
+    16,
+    18,
+    20
+  ],
+  "defaultTextSize": 16,
+  "defaultSpeed": 1,
+  "bundleByteBudget": 2400000,
+  "mapCamera": {
+    "minimumZoom": 1,
+    "maximumZoom": 8,
+    "wheelSensitivity": 0.002,
+    "wheelLinePixels": 16,
+    "maximumWheelDelta": 600,
+    "buttonZoomFactor": 1.5,
+    "dragThresholdPixels": 4,
+    "keyboardPanPixels": 60
+  },
+  "foregroundBudgetMs": 8,
+  "rateSampleMs": 1000,
+  "maximumAnimationSpeed": 3,
+  "maximumAnimationDeltaSeconds": 0.1,
+  "daylight": {
+    "maximumCycleSpeed": 10,
+    "transitionSeconds": 0.4,
+    "twilightFraction": 0.08
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "configHash": "bc7764ad50cfbf33",
+  "results": [
+    {
+      "label": "previous",
+      "seed": 271828,
+      "ticks": 1800,
+      "firstMate": null,
+      "matings": 0,
+      "mateBonds": 0,
+      "living": 12,
+      "minPopulation": 12,
+      "births": 0,
+      "rescues": 0
+    },
+    {
+      "label": "updated",
+      "seed": 271828,
+      "ticks": 12000,
+      "firstMate": 43,
+      "matings": 33,
+      "mateBonds": 34,
+      "living": 9,
+      "minPopulation": 3,
+      "births": 33,
+      "rescues": 13
+    },
+    {
+      "label": "previous",
+      "seed": 314159,
+      "ticks": 1800,
+      "firstMate": null,
+      "matings": 0,
+      "mateBonds": 0,
+      "living": 12,
+      "minPopulation": 12,
+      "births": 0,
+      "rescues": 0
+    },
+    {
+      "label": "updated",
+      "seed": 314159,
+      "ticks": 12000,
+      "firstMate": 43,
+      "matings": 27,
+      "mateBonds": 30,
+      "living": 8,
+      "minPopulation": 2,
+      "births": 27,
+      "rescues": 8
+    },
+    {
+      "label": "previous",
+      "seed": 161803,
+      "ticks": 1800,
+      "firstMate": null,
+      "matings": 0,
+      "mateBonds": 0,
+      "living": 12,
+      "minPopulation": 12,
+      "births": 0,
+      "rescues": 0
+    },
+    {
+      "label": "updated",
+      "seed": 161803,
+      "ticks": 12000,
+      "firstMate": 88,
+      "matings": 35,
+      "mateBonds": 40,
+      "living": 8,
+      "minPopulation": 2,
+      "births": 35,
+      "rescues": 8
+    },
+    {
+      "file": ".logs/performance/long-play-world.json",
+      "tick": 1247374,
+      "living": 6,
+      "minPopulation": 3,
+      "exactContinuation": true
+    },
+    {
+      "file": "/workspace/attachments/bf68a047-805f-4fea-b0e7-9ae8c05dd795/derbil-dynasty-world-261374.json",
+      "tick": 267374,
+      "living": 7,
+      "minPopulation": 6,
+      "exactContinuation": true
+    }
+  ]
+}

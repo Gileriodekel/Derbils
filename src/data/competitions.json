@@ -1,0 +1,162 @@
+{
+  "formats": [
+    {
+      "id": "dash",
+      "name": "Skill dash",
+      "rounds": 1,
+      "aggregation": "single",
+      "skills": [
+        "run",
+        "swim",
+        "fly",
+        "strength",
+        "stamina"
+      ]
+    },
+    {
+      "id": "circuit",
+      "name": "Three-leg circuit",
+      "rounds": 3,
+      "aggregation": "harmonic",
+      "skills": [
+        "run",
+        "swim",
+        "fly",
+        "strength",
+        "stamina"
+      ]
+    },
+    {
+      "id": "power",
+      "name": "Strength trial",
+      "rounds": 3,
+      "aggregation": "mean",
+      "skills": [
+        "strength",
+        "stamina"
+      ]
+    }
+  ],
+  "entry": {
+    "allowedStages": [
+      "juvenile",
+      "adult",
+      "elder"
+    ],
+    "levels": {},
+    "maximumEntrants": 8,
+    "needMaximum": 60,
+    "stressMaximum": 60,
+    "minimumMood": -0.25,
+    "relatedEntrantsAllowed": true
+  },
+  "minimumEntrants": 2,
+  "maximumEntrants": 8,
+  "maximumConcurrent": 1,
+  "entryWindowTicks": 60,
+  "defaultStartDelay": 90,
+  "minimumStartDelay": 1,
+  "maximumStartDelay": 12000,
+  "durationTicks": 90,
+  "skillCooldownTicks": 1200,
+  "historyLimit": 200,
+  "elderRemainingMinimumTicks": 120,
+  "requiredLevels": {
+    "swim": 10,
+    "fly": 25
+  },
+  "venue": {
+    "position": {
+      "x": 85,
+      "y": 45
+    },
+    "width": 3,
+    "height": 2,
+    "places": [
+      {
+        "x": 85.5,
+        "y": 44.5
+      },
+      {
+        "x": 86.5,
+        "y": 44.5
+      },
+      {
+        "x": 87.5,
+        "y": 44.5
+      },
+      {
+        "x": 88.5,
+        "y": 45.5
+      },
+      {
+        "x": 88.5,
+        "y": 46.5
+      },
+      {
+        "x": 87.5,
+        "y": 47.5
+      },
+      {
+        "x": 86.5,
+        "y": 47.5
+      },
+      {
+        "x": 85.5,
+        "y": 47.5
+      }
+    ],
+    "arrivalTolerance": 0.001,
+    "color": "#735da8",
+    "resultTicks": 120
+  },
+  "workEffects": {
+    "hunger": 0,
+    "fatigue": 6,
+    "boredom": -15,
+    "loneliness": -15,
+    "stress": 0
+  },
+  "stakesMultiplier": 1,
+  "podiumPlaces": 3,
+  "autoCompetitions": false,
+  "autoCadenceTicks": 7500,
+  "autoSkills": [
+    "run",
+    "strength",
+    "stamina"
+  ],
+  "autoFormats": [
+    "dash",
+    "circuit",
+    "power"
+  ],
+  "brain": {
+    "interest": 0.4,
+    "skillWeight": 0.5,
+    "aptitudeWeight": 0.5,
+    "moodWeight": 0.5,
+    "rivalryWeight": 1,
+    "readinessReserve": 5
+  },
+  "report": {
+    "levelBands": [
+      10,
+      25,
+      45,
+      70
+    ],
+    "aptitudeBands": [
+      0.4,
+      0.6
+    ],
+    "minimumFillRate": 0.65,
+    "maximumDropShare": 0.5,
+    "seeds": [
+      271828,
+      314159,
+      161803
+    ],
+    "stabilityTicks": 500000
+  }
+}

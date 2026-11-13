@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "ticksPerRealSecond": 1,
+  "offlineRateMultiplier": 0.25,
+  "maxCatchUpTicks": 18000,
+  "minAwaySeconds": 5,
+  "excessTime": "discard",
+  "stallThresholdSeconds": 5,
+  "sliceBudgetMs": 8,
+  "minTicksPerSlice": 1,
+  "maxTicksPerSlice": 32,
+  "autosaveIntervalSeconds": 15,
+  "summary": {
+    "notableLimit": 12,
+    "skillMilestones": [
+      10,
+      25,
+      45,
+      70
+    ],
+    "priorities": {
+      "rescue": 100,
+      "death": 90,
+      "rebirth": 85,
+      "eggLaid": 80,
+      "hatch": 75,
+      "competitionResult": 95,
+      "prizeAwarded": 65,
+      "mateBondFormed": 60,
+      "bodyPart": 55,
+      "skillMilestone": 50,
+      "friendship": 45,
+      "rivalry": 40,
+      "competitionCancelled": 35,
+      "spawn": 30
+    }
+  },
+  "archive": {
+    "maintenanceTicks": 1200,
+    "minimumAgeTicks": 1000000,
+    "stubGenerationHorizon": 8,
+    "dropGenerationHorizon": 16,
+    "maximumFullRecords": 4096,
+    "maximumStubs": 2048,
+    "saveByteBudget": 4194304
+  },
+  "bench": {
+    "seed": 271828,
+    "warmupTicks": 1000,
+    "measuredTicks": 10000,
+    "populations": [
+      1,
+      10,
+      30
+    ],
+    "targetCatchUpSeconds": 20
+  }
+}

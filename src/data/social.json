@@ -1,0 +1,204 @@
+{
+  "friendBond": 33.333333333333336,
+  "closeFriendBond": 70,
+  "dislikedBond": -33.333333333333336,
+  "mateBondThreshold": 50,
+  "bondBounds": [
+    -100,
+    100
+  ],
+  "maximumRelationships": 240,
+  "relationshipsPerCreature": 16,
+  "historyLimit": 3,
+  "decayGraceDays": 1,
+  "bondDecayDays": 30,
+  "rivalryDecayDays": 10,
+  "maintenanceTicks": 60,
+  "pruneStrength": 0.5,
+  "initialFounderBond": 15,
+  "newbornParentBond": 25,
+  "newbornSiblingBond": 10,
+  "radiusTiles": 40,
+  "gridTiles": 12,
+  "targetLimit": 4,
+  "scanLimit": 16,
+  "targetIntervalTicks": 30,
+  "targetLonelinessWeight": 0.25,
+  "targetDistanceScale": 48,
+  "inviteMinimumUtility": 0.15,
+  "inviteCurrentUtilityMargin": 0.05,
+  "proximityTiles": 2,
+  "travelTimeoutTicks": 120,
+  "comfortGentleness": 0.5,
+  "comfortStressMinimum": 20,
+  "comfortRecipientEffects": {
+    "hunger": 0,
+    "fatigue": 0,
+    "boredom": 0,
+    "loneliness": -12,
+    "stress": -12
+  },
+  "rudePlayBaseChance": 0.12,
+  "rudePlayTraitChance": 0.18,
+  "positiveScaleBase": 0.75,
+  "positiveSociabilityWeight": 0.25,
+  "affinityScaleBase": 0.75,
+  "affinityScaleWeight": 0.25,
+  "outcomes": {
+    "friendlyPlay": {
+      "bond": 18,
+      "mateBond": 0,
+      "valence": [
+        0.08,
+        0.08
+      ],
+      "stress": [
+        0,
+        0
+      ]
+    },
+    "rudePlay": {
+      "bond": -14,
+      "mateBond": 0,
+      "valence": [
+        0,
+        -0.12
+      ],
+      "stress": [
+        0,
+        8
+      ]
+    },
+    "comfort": {
+      "bond": 5,
+      "mateBond": 0,
+      "valence": [
+        0,
+        0.1
+      ],
+      "stress": [
+        0,
+        0
+      ]
+    },
+    "court": {
+      "bond": 10,
+      "mateBond": 25,
+      "valence": [
+        0,
+        0
+      ],
+      "stress": [
+        0,
+        0
+      ]
+    },
+    "pair": {
+      "bond": 5,
+      "mateBond": 0,
+      "valence": [
+        0,
+        0
+      ],
+      "stress": [
+        0,
+        0
+      ]
+    },
+    "avoid": {
+      "bond": 0,
+      "mateBond": 0,
+      "valence": [
+        0,
+        0
+      ],
+      "stress": [
+        0,
+        0
+      ]
+    }
+  },
+  "contest": {
+    "rivalry": 4,
+    "lowRivalry": 4,
+    "competitivenessMinimum": 0.5,
+    "bond": 2,
+    "winnerValence": 0.1,
+    "otherValence": 0.02,
+    "cooldownTicks": 120,
+    "skillOffset": 5,
+    "conditionBase": 0.55,
+    "conditionWeight": 0.45,
+    "primaryWeight": 0.85,
+    "staminaWeight": 0.15,
+    "noiseAmplitude": 0.08,
+    "tieEpsilon": 1e-09,
+    "aptitudeBands": [
+      0.4,
+      0.6
+    ],
+    "rivalLossBond": -6,
+    "friendLossBond": 0
+  },
+  "rivalry": {
+    "skillGap": 12,
+    "utilityBoost": 0.1,
+    "xpBoost": 0.1,
+    "dailyExtraXpCap": 12
+  },
+  "mateAffinityWeight": 0.2,
+  "contestAffinityWeights": [
+    0.5,
+    0.5
+  ],
+  "rudeGentlenessStep": -0.005,
+  "rudeRecipientBoldnessStep": -0.003,
+  "avoidRadiusTiles": 4,
+  "avoidDistanceTiles": 3,
+  "mourning": {
+    "enabled": true,
+    "durationTicks": 240
+  },
+  "overlays": {
+    "visibility": 20,
+    "maximumLineWidth": 5,
+    "friendly": "#587c69",
+    "hostile": "#b97552",
+    "selected": "#c3974b",
+    "effectTicks": 12
+  },
+  "pacing": {
+    "earlyAdultTicks": 10800,
+    "positiveShare": [
+      0.05,
+      0.995
+    ],
+    "minimumFriendships": 1,
+    "minimumRivalries": 1,
+    "seeds": [
+      271828,
+      314159,
+      161803
+    ],
+    "ticks": 300000
+  },
+  "learningFriendly": 0.2,
+  "learningRude": -0.4,
+  "report": {
+    "affinityBins": [
+      -100,
+      -50,
+      -30,
+      0,
+      40,
+      70,
+      100
+    ]
+  },
+  "targetBondWeight": 0.15,
+  "mateDecayGraceDays": 5,
+  "mateDecayDays": 90,
+  "targetMateWeight": 0.35,
+  "mateSeekingInterest": 0.5,
+  "mateProgressInterest": 0.4
+}

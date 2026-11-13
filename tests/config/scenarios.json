@@ -1,0 +1,50 @@
+{
+  "low-food": {
+    "ticks": 120000,
+    "seed": 271828,
+    "sources": 5,
+    "founders": 12,
+    "cadence": null,
+    "minimumPopulation": 1,
+    "maximumPopulation": 30,
+    "maximumRescues": 0,
+    "minimumFinalPopulation": 12,
+    "minimumBirths": 1
+  },
+  "high-crowding": {
+    "ticks": 120000,
+    "seed": 314159,
+    "sources": 10,
+    "founders": 30,
+    "cadence": null,
+    "minimumPopulation": 1,
+    "maximumPopulation": 30,
+    "maximumRescues": 0,
+    "minimumFinalPopulation": 12,
+    "minimumBirths": 1
+  },
+  "idle": {
+    "ticks": 500000,
+    "seed": 161803,
+    "sources": 10,
+    "founders": 12,
+    "cadence": null,
+    "minimumPopulation": 1,
+    "maximumPopulation": 30,
+    "maximumRescues": 0,
+    "minimumFinalPopulation": 12,
+    "minimumBirths": 1
+  },
+  "fast-competitions": {
+    "ticks": 120000,
+    "seed": 271828,
+    "sources": 10,
+    "founders": 12,
+    "cadence": 2400,
+    "minimumPopulation": 1,
+    "maximumPopulation": 30,
+    "maximumRescues": 0,
+    "minimumFinalPopulation": 12,
+    "minimumBirths": 1
+  }
+}

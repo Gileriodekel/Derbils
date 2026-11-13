@@ -1,0 +1,43 @@
+{
+  "capacity": 2,
+  "defaults": [
+    {
+      "skill": "run",
+      "x": 26,
+      "y": 24,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "skill": "fly",
+      "x": 27,
+      "y": 28,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "skill": "strength",
+      "x": 22,
+      "y": 24,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "skill": "stamina",
+      "x": 24,
+      "y": 28,
+      "width": 1,
+      "height": 1
+    }
+  ],
+  "shallowPractice": [
+    {
+      "x": 26,
+      "y": 26
+    },
+    {
+      "x": 27,
+      "y": 26
+    }
+  ]
+}

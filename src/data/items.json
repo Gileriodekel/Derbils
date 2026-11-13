@@ -1,0 +1,65 @@
+{
+  "nest": {
+    "name": "Extra nest",
+    "width": 2,
+    "height": 2,
+    "skill": null,
+    "effect": "courtship"
+  },
+  "bed": {
+    "name": "Bed",
+    "width": 1,
+    "height": 1,
+    "skill": null,
+    "effect": "sleep"
+  },
+  "track": {
+    "name": "Track marker",
+    "width": 1,
+    "height": 1,
+    "skill": "run",
+    "effect": "training"
+  },
+  "wind_perch": {
+    "name": "Wind perch",
+    "width": 1,
+    "height": 1,
+    "skill": "fly",
+    "effect": "training"
+  },
+  "push_stone": {
+    "name": "Push stone",
+    "width": 1,
+    "height": 1,
+    "skill": "strength",
+    "effect": "training"
+  },
+  "trail_marker": {
+    "name": "Trail marker",
+    "width": 1,
+    "height": 1,
+    "skill": "stamina",
+    "effect": "training"
+  },
+  "toy": {
+    "name": "Toy",
+    "width": 1,
+    "height": 1,
+    "skill": null,
+    "effect": "play"
+  },
+  "competition_pad": {
+    "name": "Competition pad",
+    "width": 3,
+    "height": 2,
+    "skill": null,
+    "effect": "competition"
+  },
+  "lantern": {
+    "name": "Cosmetic lantern",
+    "width": 1,
+    "height": 1,
+    "skill": null,
+    "effect": "visual"
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "configHash": "d8be34aea6beaac1",
+  "longRuns": [
+    {
+      "seed": 271828,
+      "input": "",
+      "configHash": "d8be34aea6beaac1",
+      "startTick": 0,
+      "endTick": 120000,
+      "requestedTicks": 120000,
+      "rescueEnabled": true,
+      "min": 8,
+      "max": 24,
+      "mean": 18.04,
+      "final": 16,
+      "births": 939,
+      "deaths": 1103,
+      "rescues": 168,
+      "rebirths": 94,
+      "lastBirth": 119749,
+      "extinctAt": null,
+      "peakHunger": 100,
+      "peakFatigue": 68.52400000000159,
+      "generation": 21,
+      "hash": "c3083353a50d99f7",
+      "continuationIdentical": true,
+      "seconds": 379.276,
+      "rows": [
+        {
+          "tick": 10000,
+          "population": 12,
+          "births": 85,
+          "deaths": 97,
+          "rescues": 12,
+          "rebirths": 8,
+          "generation": 9,
+          "seconds": 68
+        },
+        {
+          "tick": 20000,
+          "population": 11,
+          "births": 161,
+          "deaths": 190,
+          "rescues": 28,
+          "rebirths": 15,
+          "generation": 14,
+          "seconds": 97
+        },
+        {
+          "tick": 30000,
+          "population": 14,
+          "births": 236,
+          "deaths": 274,
+          "rescues": 40,
+          "rebirths": 26,
+          "generation": 14,
+          "seconds": 151
+        },
+        {
+          "tick": 40000,
+          "population": 14,
+          "births": 312,
+          "deaths": 366,
+          "rescues": 56,
+          "rebirths": 34,
+          "generation": 14,
+          "seconds": 180
+        },
+        {
+          "tick": 50000,
+          "population": 24,
+          "births": 397,
+          "deaths": 453,
+          "rescues": 68,
+          "rebirths": 43,
+          "generation": 14,
+          "seconds": 210
+        },
+        {
+          "tick": 60000,
+          "population": 9,
+          "births": 471,
+          "deaths": 554,
+          "rescues": 80,
+          "rebirths": 51,
+          "generation": 14,
+          "seconds": 232
+        },
+        {
+          "tick": 70000,
+          "population": 17,
+          "births": 545,
+          "deaths": 636,
+          "rescues": 96,
+          "rebirths": 57,
+          "generation": 17,
+          "seconds": 251
+        },
+        {
+          "tick": 80000,
+          "population": 21,
+          "births": 640,
+          "deaths": 739,
+          "rescues": 108,
+          "rebirths": 63,
+          "generation": 17,
+          "seconds": 278
+        },
+        {
+          "tick": 90000,
+          "population": 22,
+          "births": 711,
+          "deaths": 829,
+          "rescues": 128,
+          "rebirths": 72,
+          "generation": 17,
+          "seconds": 298
+        },
+        {
+          "tick": 100000,
+          "population": 20,
+          "births": 787,
+          "deaths": 915,
+          "rescues": 136,
+          "rebirths": 80,
+          "generation": 18,
+          "seconds": 314
+        },
+        {
+          "tick": 110000,
+          "population": 20,
+          "births": 857,
+          "deaths": 1005,
+          "rescues": 156,
+          "rebirths": 85,
+          "generation": 21,
+          "seconds": 341
+        },
+        {
+          "tick": 120000,
+          "population": 16,
+          "births": 939,
+          "deaths": 1103,
+          "rescues": 168,
+          "rebirths": 94,
+          "generation": 21,
+          "seconds": 372
+        }
+      ],
+      "pass": true
+    },
+    {
+      "seed": 314159,
+      "input": "",
+      "configHash": "d8be34aea6beaac1",
+      "startTick": 0,
+      "endTick": 120000,
+      "requestedTicks": 120000,
+      "rescueEnabled": true,
+      "min": 8,
+      "max": 24,
+      "mean": 18.05,
+      "final": 17,
+      "births": 941,
+      "deaths": 1124,
+      "rescues": 188,
+      "rebirths": 104,
+      "lastBirth": 119964,
+      "extinctAt": null,
+      "peakHunger": 100,
+      "peakFatigue": 69.2815000000013,
+      "generation": 26,
+      "hash": "a4151a8c2c729c2a",
+      "continuationIdentical": true,
+      "seconds": 388.247,
+      "rows": [
+        {
+          "tick": 10000,
+          "population": 14,
+          "births": 87,
+          "deaths": 93,
+          "rescues": 8,
+          "rebirths": 9,
+          "generation": 9,
+          "seconds": 62
+        },
+        {
+          "tick": 20000,
+          "population": 22,
+          "births": 172,
+          "deaths": 190,
+          "rescues": 28,
+          "rebirths": 19,
+          "generation": 16,
+          "seconds": 95
+        },
+        {
+          "tick": 30000,
+          "population": 13,
+          "births": 246,
+          "deaths": 285,
+          "rescues": 40,
+          "rebirths": 29,
+          "generation": 26,
+          "seconds": 153
+        },
+        {
+          "tick": 40000,
+          "population": 13,
+          "births": 310,
+          "deaths": 373,
+          "rescues": 64,
+          "rebirths": 38,
+          "generation": 26,
+          "seconds": 190
+        },
+        {
+          "tick": 50000,
+          "population": 20,
+          "births": 395,
+          "deaths": 463,
+          "rescues": 76,
+          "rebirths": 49,
+          "generation": 26,
+          "seconds": 220
+        },
+        {
+          "tick": 60000,
+          "population": 19,
+          "births": 468,
+          "deaths": 557,
+          "rescues": 96,
+          "rebirths": 55,
+          "generation": 26,
+          "seconds": 242
+        },
+        {
+          "tick": 70000,
+          "population": 19,
+          "births": 551,
+          "deaths": 652,
+          "rescues": 108,
+          "rebirths": 63,
+          "generation": 26,
+          "seconds": 266
+        },
+        {
+          "tick": 80000,
+          "population": 17,
+          "births": 628,
+          "deaths": 743,
+          "rescues": 120,
+          "rebirths": 75,
+          "generation": 26,
+          "seconds": 294
+        },
+        {
+          "tick": 90000,
+          "population": 13,
+          "births": 697,
+          "deaths": 840,
+          "rescues": 144,
+          "rebirths": 82,
+          "generation": 26,
+          "seconds": 314
+        },
+        {
+          "tick": 100000,
+          "population": 15,
+          "births": 779,
+          "deaths": 936,
+          "rescues": 160,
+          "rebirths": 89,
+          "generation": 26,
+          "seconds": 340
+        },
+        {
+          "tick": 110000,
+          "population": 19,
+          "births": 860,
+          "deaths": 1029,
+          "rescues": 176,
+          "rebirths": 96,
+          "generation": 26,
+          "seconds": 363
+        },
+        {
+          "tick": 120000,
+          "population": 17,
+          "births": 941,
+          "deaths": 1124,
+          "rescues": 188,
+          "rebirths": 104,
+          "generation": 26,
+          "seconds": 382
+        }
+      ],
+      "pass": true
+    },
+    {
+      "seed": 161803,
+      "input": "",
+      "configHash": "d8be34aea6beaac1",
+      "startTick": 0,
+      "endTick": 120000,
+      "requestedTicks": 120000,
+      "rescueEnabled": true,
+      "min": 8,
+      "max": 26,
+      "mean": 18.53,
+      "final": 20,
+      "births": 982,
+      "deaths": 1138,
+      "rescues": 164,
+      "rebirths": 98,
+      "lastBirth": 119983,
+      "extinctAt": null,
+      "peakHunger": 100,
+      "peakFatigue": 68.43700000000035,
+      "generation": 25,
+      "hash": "ea0cf0277b3256b5",
+      "continuationIdentical": true,
+      "seconds": 393.651,
+      "rows": [
+        {
+          "tick": 10000,
+          "population": 24,
+          "births": 88,
+          "deaths": 88,
+          "rescues": 12,
+          "rebirths": 10,
+          "generation": 6,
+          "seconds": 62
+        },
+        {
+          "tick": 20000,
+          "population": 17,
+          "births": 177,
+          "deaths": 192,
+          "rescues": 20,
+          "rebirths": 18,
+          "generation": 13,
+          "seconds": 103
+        },
+        {
+          "tick": 30000,
+          "population": 16,
+          "births": 252,
+          "deaths": 284,
+          "rescues": 36,
+          "rebirths": 27,
+          "generation": 15,
+          "seconds": 157
+        },
+        {
+          "tick": 40000,
+          "population": 23,
+          "births": 325,
+          "deaths": 370,
+          "rescues": 56,
+          "rebirths": 35,
+          "generation": 15,
+          "seconds": 193
+        },
+        {
+          "tick": 50000,
+          "population": 16,
+          "births": 410,
+          "deaths": 474,
+          "rescues": 68,
+          "rebirths": 41,
+          "generation": 15,
+          "seconds": 218
+        },
+        {
+          "tick": 60000,
+          "population": 19,
+          "births": 504,
+          "deaths": 573,
+          "rescues": 76,
+          "rebirths": 48,
+          "generation": 24,
+          "seconds": 239
+        },
+        {
+          "tick": 70000,
+          "population": 24,
+          "births": 583,
+          "deaths": 663,
+          "rescues": 92,
+          "rebirths": 57,
+          "generation": 25,
+          "seconds": 260
+        },
+        {
+          "tick": 80000,
+          "population": 15,
+          "births": 668,
+          "deaths": 769,
+          "rescues": 104,
+          "rebirths": 65,
+          "generation": 25,
+          "seconds": 291
+        },
+        {
+          "tick": 90000,
+          "population": 16,
+          "births": 748,
+          "deaths": 864,
+          "rescues": 120,
+          "rebirths": 72,
+          "generation": 25,
+          "seconds": 310
+        },
+        {
+          "tick": 100000,
+          "population": 11,
+          "births": 811,
+          "deaths": 952,
+          "rescues": 140,
+          "rebirths": 82,
+          "generation": 25,
+          "seconds": 333
+        },
+        {
+          "tick": 110000,
+          "population": 24,
+          "births": 902,
+          "deaths": 1042,
+          "rescues": 152,
+          "rebirths": 89,
+          "generation": 25,
+          "seconds": 364
+        },
+        {
+          "tick": 120000,
+          "population": 20,
+          "births": 982,
+          "deaths": 1138,
+          "rescues": 164,
+          "rebirths": 98,
+          "generation": 25,
+          "seconds": 386
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "recovery": {
+    "configHash": "d8be34aea6beaac1",
+    "results": [
+      {
+        "file": ".logs/population-v2/trial1/seed-314159-world.json",
+        "startTick": 12000,
+        "initial": 3,
+        "min": 3,
+        "final": 24,
+        "ticks": 13000,
+        "firstReachedEightAfterTicks": 240,
+        "births": 98,
+        "rescues": 24,
+        "exactContinuation": true
+      },
+      {
+        "file": "/workspace/attachments/bf68a047-805f-4fea-b0e7-9ae8c05dd795/derbil-dynasty-world-261374.json",
+        "startTick": 261374,
+        "initial": 6,
+        "min": 6,
+        "final": 23,
+        "ticks": 13000,
+        "firstReachedEightAfterTicks": 346,
+        "births": 92,
+        "rescues": 16,
+        "exactContinuation": true
+      },
+      {
+        "file": ".logs/performance/long-play-world.json",
+        "startTick": 1241374,
+        "initial": 21,
+        "min": 8,
+        "final": 22,
+        "ticks": 13000,
+        "firstReachedEightAfterTicks": 1,
+        "births": 94,
+        "rescues": 20,
+        "exactContinuation": true
+      }
+    ]
+  },
+  "recoveryMeasurementNote": "Births, rescues and minima cover 12000 ticks; final population includes a further 1000-tick exact checkpoint continuation.",
+  "standalone": {
+    "migratedUploadedStateImportedAndExportedExactly": true,
+    "configHash": "d8be34aea6beaac1",
+    "tickAfterPlaying": "261,397",
+    "pausedReloadExact": true,
+    "rescuePreferencePersists": true,
+    "externalAssetRequests": 0,
+    "pageErrors": []
+  }
+}

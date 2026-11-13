@@ -1,0 +1,218 @@
+{
+  "rulesVersion": "0.12.0",
+  "clock": {
+    "tickSeconds": 1,
+    "dayTicks": 60,
+    "foregroundSpeeds": [
+      0,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "maxTicksPerFrame": 100
+  },
+  "needs": {
+    "perMinute": {
+      "hunger": 12,
+      "fatigue": 1.2,
+      "boredom": 9,
+      "loneliness": 1.6,
+      "stress": -0.8
+    },
+    "newborn": {
+      "hunger": 25,
+      "fatigue": 15,
+      "boredom": 10,
+      "loneliness": 10,
+      "stress": 0
+    },
+    "urgentThreshold": 85,
+    "eatMinimumHunger": 15,
+    "sleepExitFatigue": 15,
+    "sleepLonelinessMultiplier": 0.5,
+    "nightFatigueMultiplier": 1.25,
+    "curiosityBoredomBase": 0.75,
+    "curiosityBoredomWeight": 0.5,
+    "sociabilityLonelinessBase": 0.25,
+    "sociabilityLonelinessWeight": 0.75
+  },
+  "mood": {
+    "needWeights": {
+      "hunger": 0.3,
+      "fatigue": 0.3,
+      "boredom": 0.15,
+      "loneliness": 0.15,
+      "stress": 0.1
+    },
+    "responseTicks": 60,
+    "valenceDecayTicks": 120,
+    "labelThreshold": 0.25,
+    "initial": 0.5
+  },
+  "ai": {
+    "decisionIntervalTicks": 5,
+    "minimumWorkCommitTicks": 8,
+    "switchMargin": 0.12,
+    "temperature": 0.08,
+    "candidateCounts": {
+      "food": 4,
+      "perSkill": 2
+    },
+    "pathAttempts": 3,
+    "wanderRadiusTiles": 3,
+    "defaultPersonalityFit": 0.5,
+    "utility": {
+      "needs": 2,
+      "personality": 0.18,
+      "preference": 0.12,
+      "growth": 0.12,
+      "social": 0.1,
+      "travelPenalty": 0.15,
+      "fatiguePenalty": 0.2,
+      "repeatPenalty": 0.08
+    },
+    "reliefScales": {
+      "hunger": 30,
+      "fatigue": 36,
+      "boredom": 20,
+      "loneliness": 18,
+      "stress": 12
+    },
+    "travelScaleSeconds": 30,
+    "fatiguePenaltyScale": 20
+  },
+  "personality": {
+    "driftLimit": 0.3,
+    "returnTimeDays": 20,
+    "positiveEventStep": 0.005,
+    "rewardCooldownTicks": 60
+  },
+  "world": {
+    "widthTiles": 172,
+    "heightTiles": 92,
+    "tilePixels": 32,
+    "walkBaseSpeed": 0.8,
+    "terrainCosts": {
+      "grass": 1,
+      "soil": 1.2,
+      "shallowWalking": 1.8,
+      "rock": 2
+    },
+    "pond": {
+      "x": 44,
+      "y": 20,
+      "outer": {
+        "x": 10,
+        "y": 8
+      },
+      "inner": {
+        "x": 7,
+        "y": 5
+      }
+    },
+    "rock": {
+      "min": {
+        "x": 10,
+        "y": 8
+      },
+      "max": {
+        "x": 17,
+        "y": 13
+      }
+    },
+    "soil": {
+      "min": {
+        "x": 8,
+        "y": 29
+      },
+      "max": {
+        "x": 22,
+        "y": 36
+      }
+    },
+    "nightStart": 0.7,
+    "nightOverlayAlpha": 0.22,
+    "navigationCacheEntries": 512
+  },
+  "initial": {
+    "seed": 271828,
+    "name": "Pip",
+    "position": {
+      "x": 73.5,
+      "y": 45.5
+    },
+    "fruit": []
+  },
+  "food": {
+    "looseSpoilDays": 2,
+    "historyLength": 5,
+    "learningRate": 0.2,
+    "genePreferenceWeight": 0.6,
+    "learnedPreferenceWeight": 0.4,
+    "repeatPreferencePenalty": 0.25,
+    "rewardTasteWeight": 0.65,
+    "rewardHungerWeight": 0.25,
+    "rewardStressWeight": 0.1,
+    "rewardStressScale": 14,
+    "rewardLowHungerThreshold": 25,
+    "rewardLowHungerPenalty": 0.3,
+    "rewardRepeatPenalty": 0.2,
+    "valenceWeight": 0.15,
+    "positiveStressRelief": 4,
+    "valenceBounds": [
+      -0.5,
+      0.5
+    ],
+    "favoriteThreshold": 0.35,
+    "dislikeThreshold": -0.25,
+    "labelMinimumMeals": 3,
+    "reactionTicks": 12,
+    "debugCreatureNames": [
+      "Pip",
+      "Moss",
+      "Clover",
+      "Fern",
+      "Willow",
+      "Bramble",
+      "Juniper",
+      "Sage"
+    ]
+  },
+  "persistence": {
+    "key": "creature-habitat.milestones-1-2",
+    "autosaveRealSeconds": 15,
+    "snapshotMaximumRealHz": 10
+  },
+  "skills": {
+    "capBase": 40,
+    "capRange": 60,
+    "baseXpPerSecond": 1,
+    "aptitudeBase": 0.6,
+    "aptitudeWeight": 0.8,
+    "capTaper": 0.75,
+    "moodBase": 0.75,
+    "moodWeight": 0.25,
+    "dedicatedQuality": 1,
+    "improvisedQuality": 0.75,
+    "dailyFullRateTicks": 240,
+    "dailyReducedMultiplier": 0.5,
+    "stressExclusionThreshold": 90,
+    "learningRate": 0.2,
+    "levelReward": 0.1,
+    "rewardWellbeingWeight": 2,
+    "levelUpMessageTicks": 12
+  },
+  "genetics": {
+    "crossoverChance": 0.65,
+    "quantitativeMutation": 0.008,
+    "categoricalMutation": 0.004,
+    "dominanceMutation": 0.002,
+    "mutationStep": [
+      1,
+      24
+    ],
+    "dominantWeight": 0.75,
+    "circularEpsilon": 1e-09
+  }
+}

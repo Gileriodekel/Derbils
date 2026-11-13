@@ -1,0 +1,1570 @@
+{
+  "configHash": "28cb9e0c5b93b870",
+  "benchmarks": [
+    {
+      "scenario": "fresh",
+      "startTick": 0,
+      "beforeTicksPerSecond": 856.801637481933,
+      "afterTicksPerSecond": 1360.270159647157,
+      "speedup": 1.5876138654973573,
+      "hash": "cadee250389785c1"
+    },
+    {
+      "scenario": "mature",
+      "startTick": 300000,
+      "beforeTicksPerSecond": 744.3332941474522,
+      "afterTicksPerSecond": 1324.4225644597968,
+      "speedup": 1.7793407534950723,
+      "hash": "8db938db631a11c2"
+    },
+    {
+      "scenario": "oldest",
+      "startTick": 441374,
+      "beforeTicksPerSecond": 380.53524541632396,
+      "afterTicksPerSecond": 776.1060838771978,
+      "speedup": 2.039511696290051,
+      "hash": "a4f523c51a2c682b"
+    }
+  ],
+  "trials": {
+    "before": [
+      [
+        {
+          "scenario": "fresh",
+          "startTick": 0,
+          "finalTick": 3200,
+          "population": 12,
+          "lineage": 12,
+          "organisms": 12,
+          "relationships": 9,
+          "ms": 3824.4159470000004,
+          "tps": 784.4335034616986,
+          "phases": {
+            "clone": 172.84828799999377,
+            "resources": 85.26664200001233,
+            "ordinaryWork": 320.36063599999125,
+            "courtshipWork": 2.291212000007363,
+            "socialWork": 6.090937000004487,
+            "competitionWork": 3.6142240000062884,
+            "sharedMaintenance": 6.934458999994604,
+            "mood": 42.91613499999039,
+            "lifecycle": 8.118898000005174,
+            "courtshipCompletion": 11.675012000002425,
+            "socialCompletion": 7.408852999999908,
+            "competitionCompletion": 0.9876199999880555,
+            "completion": 31.434553000010965,
+            "decisions": 3115.9057889999904,
+            "archive": 8.554308999995555
+          },
+          "counts": {
+            "clone": 36000,
+            "resources": 59150,
+            "ordinaryWork": 36000,
+            "courtshipWork": 0,
+            "socialWork": 515,
+            "competitionWork": 0,
+            "sharedMaintenance": 36000,
+            "mood": 36000,
+            "lifecycle": 36000,
+            "courtshipCompletion": 0,
+            "socialCompletion": 515,
+            "competitionCompletion": 0,
+            "completion": 501,
+            "decisions": 36000,
+            "archive": 36000
+          },
+          "hash": "cadee250389785c1"
+        },
+        {
+          "scenario": "mature",
+          "startTick": 300000,
+          "finalTick": 303200,
+          "population": 12,
+          "lineage": 110,
+          "organisms": 67,
+          "relationships": 48,
+          "ms": 3846.786561000001,
+          "tps": 779.8717065342267,
+          "phases": {
+            "clone": 188.64564399999836,
+            "resources": 66.78047200001129,
+            "ordinaryWork": 573.2921339999666,
+            "courtshipWork": 11.255870000006325,
+            "socialWork": 15.358814000017446,
+            "competitionWork": 4.067985999983648,
+            "sharedMaintenance": 6.915854999992007,
+            "mood": 45.41241300001093,
+            "lifecycle": 15.202269999999771,
+            "courtshipCompletion": 28.282047000029706,
+            "socialCompletion": 14.889893999972628,
+            "competitionCompletion": 1.0504670000027545,
+            "completion": 21.822206000000733,
+            "decisions": 2845.1332630000525,
+            "archive": 8.554892999985896
+          },
+          "counts": {
+            "clone": 33681,
+            "resources": 59320,
+            "ordinaryWork": 33681,
+            "courtshipWork": 123,
+            "socialWork": 2437,
+            "competitionWork": 0,
+            "sharedMaintenance": 33681,
+            "mood": 33681,
+            "lifecycle": 33681,
+            "courtshipCompletion": 123,
+            "socialCompletion": 2437,
+            "competitionCompletion": 0,
+            "completion": 2362,
+            "decisions": 33683,
+            "archive": 327683
+          },
+          "hash": "8db938db631a11c2"
+        },
+        {
+          "scenario": "oldest",
+          "startTick": 441374,
+          "finalTick": 444574,
+          "population": 19,
+          "lineage": 94,
+          "organisms": 70,
+          "relationships": 122,
+          "ms": 5807.093721000001,
+          "tps": 516.6095372546166,
+          "phases": {
+            "clone": 261.79195399996024,
+            "resources": 107.04254100002981,
+            "ordinaryWork": 1088.6661699999713,
+            "courtshipWork": 6.869490000028236,
+            "socialWork": 17.345982999979242,
+            "competitionWork": 3.3650030000189872,
+            "sharedMaintenance": 11.257666999988942,
+            "mood": 63.13034599999446,
+            "lifecycle": 15.526189000001978,
+            "courtshipCompletion": 22.3966019999516,
+            "socialCompletion": 18.26499900001727,
+            "competitionCompletion": 1.4590900000093825,
+            "completion": 24.337164000018674,
+            "decisions": 4156.604194000027,
+            "archive": 9.033968999994613
+          },
+          "counts": {
+            "clone": 60755,
+            "resources": 57784,
+            "ordinaryWork": 60755,
+            "courtshipWork": 62,
+            "socialWork": 2584,
+            "competitionWork": 0,
+            "sharedMaintenance": 60755,
+            "mood": 60755,
+            "lifecycle": 60753,
+            "courtshipCompletion": 62,
+            "socialCompletion": 2584,
+            "competitionCompletion": 0,
+            "completion": 2504,
+            "decisions": 60754,
+            "archive": 281925
+          },
+          "hash": "a4f523c51a2c682b"
+        }
+      ],
+      [
+        {
+          "scenario": "fresh",
+          "startTick": 0,
+          "finalTick": 3200,
+          "population": 12,
+          "lineage": 12,
+          "organisms": 12,
+          "relationships": 9,
+          "ms": 3178.37179,
+          "tps": 943.8795075638398,
+          "phases": {
+            "clone": 144.6039240000041,
+            "resources": 69.43103299999439,
+            "ordinaryWork": 314.57781000000796,
+            "courtshipWork": 3.6484590000036405,
+            "socialWork": 8.988749999997708,
+            "competitionWork": 3.614055999991251,
+            "sharedMaintenance": 8.782906000014009,
+            "mood": 40.061444999985724,
+            "lifecycle": 9.334492999991653,
+            "courtshipCompletion": 11.536170999998376,
+            "socialCompletion": 7.39616900001829,
+            "competitionCompletion": 0.9369479999950272,
+            "completion": 15.094562999989193,
+            "decisions": 2531.7236150000153,
+            "archive": 8.633529999994153
+          },
+          "counts": {
+            "clone": 36000,
+            "resources": 59150,
+            "ordinaryWork": 36000,
+            "courtshipWork": 0,
+            "socialWork": 515,
+            "competitionWork": 0,
+            "sharedMaintenance": 36000,
+            "mood": 36000,
+            "lifecycle": 36000,
+            "courtshipCompletion": 0,
+            "socialCompletion": 515,
+            "competitionCompletion": 0,
+            "completion": 501,
+            "decisions": 36000,
+            "archive": 36000
+          },
+          "hash": "cadee250389785c1"
+        },
+        {
+          "scenario": "mature",
+          "startTick": 300000,
+          "finalTick": 303200,
+          "population": 12,
+          "lineage": 110,
+          "organisms": 67,
+          "relationships": 48,
+          "ms": 4214.118476,
+          "tps": 711.8926572865533,
+          "phases": {
+            "clone": 328.86330199998156,
+            "resources": 83.6241200000386,
+            "ordinaryWork": 679.2512809999535,
+            "courtshipWork": 9.882813999993232,
+            "socialWork": 13.63043099999777,
+            "competitionWork": 3.4416410000230826,
+            "sharedMaintenance": 7.1649689999867405,
+            "mood": 95.43016800000441,
+            "lifecycle": 12.552761000008104,
+            "courtshipCompletion": 31.04279100000167,
+            "socialCompletion": 18.60584600000402,
+            "competitionCompletion": 2.1518189999951574,
+            "completion": 19.071405000006052,
+            "decisions": 2901.728851999942,
+            "archive": 7.598767000004955
+          },
+          "counts": {
+            "clone": 33681,
+            "resources": 59320,
+            "ordinaryWork": 33681,
+            "courtshipWork": 123,
+            "socialWork": 2437,
+            "competitionWork": 0,
+            "sharedMaintenance": 33681,
+            "mood": 33681,
+            "lifecycle": 33681,
+            "courtshipCompletion": 123,
+            "socialCompletion": 2437,
+            "competitionCompletion": 0,
+            "completion": 2362,
+            "decisions": 33683,
+            "archive": 327683
+          },
+          "hash": "8db938db631a11c2"
+        },
+        {
+          "scenario": "oldest",
+          "startTick": 441374,
+          "finalTick": 444574,
+          "population": 19,
+          "lineage": 94,
+          "organisms": 70,
+          "relationships": 122,
+          "ms": 9960.171131000001,
+          "tps": 301.1996441168376,
+          "phases": {
+            "clone": 440.1608999998607,
+            "resources": 165.55108100008147,
+            "ordinaryWork": 2000.3319770001071,
+            "courtshipWork": 14.117910999964806,
+            "socialWork": 27.65396500000861,
+            "competitionWork": 5.450038999970275,
+            "sharedMaintenance": 15.324711999957799,
+            "mood": 117.94667699999627,
+            "lifecycle": 35.011452000053396,
+            "courtshipCompletion": 60.02171699995233,
+            "socialCompletion": 38.11268100004236,
+            "competitionCompletion": 2.022043000000849,
+            "completion": 38.66447400004472,
+            "decisions": 6981.147207999897,
+            "archive": 18.651380000075733
+          },
+          "counts": {
+            "clone": 60755,
+            "resources": 57784,
+            "ordinaryWork": 60755,
+            "courtshipWork": 62,
+            "socialWork": 2584,
+            "competitionWork": 0,
+            "sharedMaintenance": 60755,
+            "mood": 60755,
+            "lifecycle": 60753,
+            "courtshipCompletion": 62,
+            "socialCompletion": 2584,
+            "competitionCompletion": 0,
+            "completion": 2504,
+            "decisions": 60754,
+            "archive": 281925
+          },
+          "hash": "a4f523c51a2c682b"
+        }
+      ]
+    ],
+    "after": [
+      [
+        {
+          "scenario": "fresh",
+          "startTick": 0,
+          "finalTick": 3200,
+          "population": 12,
+          "lineage": 12,
+          "organisms": 12,
+          "relationships": 9,
+          "ms": 2311.9957670000003,
+          "tps": 1297.5802303880255,
+          "phases": {
+            "clone": 144.06023299999424,
+            "resources": 76.57560300000387,
+            "ordinaryWork": 235.3349350000044,
+            "courtshipWork": 2.291125000003831,
+            "socialWork": 11.450007000000824,
+            "competitionWork": 2.3300159999948846,
+            "sharedMaintenance": 5.7897029999894585,
+            "mood": 36.56601200000205,
+            "lifecycle": 9.729250999999294,
+            "courtshipCompletion": 11.048456000000442,
+            "socialCompletion": 9.457830999999715,
+            "competitionCompletion": 0.8658540000060384,
+            "completion": 11.957991999993283,
+            "decisions": 1749.6364199999998,
+            "archive": 4.893217999998342
+          },
+          "counts": {
+            "clone": 36000,
+            "resources": 59150,
+            "ordinaryWork": 36000,
+            "courtshipWork": 0,
+            "socialWork": 515,
+            "competitionWork": 0,
+            "sharedMaintenance": 36000,
+            "mood": 36000,
+            "lifecycle": 36000,
+            "courtshipCompletion": 0,
+            "socialCompletion": 515,
+            "competitionCompletion": 0,
+            "completion": 501,
+            "decisions": 36000,
+            "archive": 36000
+          },
+          "hash": "cadee250389785c1"
+        },
+        {
+          "scenario": "mature",
+          "startTick": 300000,
+          "finalTick": 303200,
+          "population": 12,
+          "lineage": 110,
+          "organisms": 67,
+          "relationships": 48,
+          "ms": 1854.1273650000003,
+          "tps": 1618.0118241229882,
+          "phases": {
+            "clone": 135.22637300000406,
+            "resources": 62.353832999994665,
+            "ordinaryWork": 278.1251660000198,
+            "courtshipWork": 6.018981000004715,
+            "socialWork": 11.837954999978137,
+            "competitionWork": 2.0393310000254132,
+            "sharedMaintenance": 7.80065999998078,
+            "mood": 30.72374700000637,
+            "lifecycle": 10.291607000001022,
+            "courtshipCompletion": 17.20425299998533,
+            "socialCompletion": 11.32806500001334,
+            "competitionCompletion": 1.14677199997368,
+            "completion": 18.625974000000497,
+            "decisions": 1256.4862670000075,
+            "archive": 4.9161910000057105
+          },
+          "counts": {
+            "clone": 33681,
+            "resources": 59320,
+            "ordinaryWork": 33681,
+            "courtshipWork": 123,
+            "socialWork": 2437,
+            "competitionWork": 0,
+            "sharedMaintenance": 33681,
+            "mood": 33681,
+            "lifecycle": 33681,
+            "courtshipCompletion": 123,
+            "socialCompletion": 2437,
+            "competitionCompletion": 0,
+            "completion": 2362,
+            "decisions": 33683,
+            "archive": 327683
+          },
+          "hash": "8db938db631a11c2"
+        },
+        {
+          "scenario": "oldest",
+          "startTick": 441374,
+          "finalTick": 444574,
+          "population": 19,
+          "lineage": 94,
+          "organisms": 70,
+          "relationships": 122,
+          "ms": 4128.212057000001,
+          "tps": 726.7068548266681,
+          "phases": {
+            "clone": 287.5573450000429,
+            "resources": 110.98996600000282,
+            "ordinaryWork": 666.8463539999684,
+            "courtshipWork": 5.639472000013484,
+            "socialWork": 17.817298000009032,
+            "competitionWork": 3.6427110000022367,
+            "sharedMaintenance": 78.98675399997956,
+            "mood": 57.70128600001226,
+            "lifecycle": 19.534193000017694,
+            "courtshipCompletion": 23.534602999974595,
+            "socialCompletion": 20.567323000022952,
+            "competitionCompletion": 0.9080079999857844,
+            "completion": 24.759767999999895,
+            "decisions": 2802.360601999986,
+            "archive": 7.363413999977638
+          },
+          "counts": {
+            "clone": 60755,
+            "resources": 57784,
+            "ordinaryWork": 60755,
+            "courtshipWork": 62,
+            "socialWork": 2584,
+            "competitionWork": 0,
+            "sharedMaintenance": 60755,
+            "mood": 60755,
+            "lifecycle": 60753,
+            "courtshipCompletion": 62,
+            "socialCompletion": 2584,
+            "competitionCompletion": 0,
+            "completion": 2504,
+            "decisions": 60754,
+            "archive": 281925
+          },
+          "hash": "a4f523c51a2c682b"
+        }
+      ],
+      [
+        {
+          "scenario": "fresh",
+          "startTick": 0,
+          "finalTick": 3200,
+          "population": 12,
+          "lineage": 12,
+          "organisms": 12,
+          "relationships": 9,
+          "ms": 2098.8927300000005,
+          "tps": 1429.3250708434248,
+          "phases": {
+            "clone": 155.6953369999983,
+            "resources": 80.16028399999823,
+            "ordinaryWork": 249.57201400000076,
+            "courtshipWork": 2.7177250000049753,
+            "socialWork": 5.667484999987664,
+            "competitionWork": 2.3013760000103503,
+            "sharedMaintenance": 5.6194909999853735,
+            "mood": 32.752172000013616,
+            "lifecycle": 10.32252800000606,
+            "courtshipCompletion": 14.467567999993662,
+            "socialCompletion": 8.01363899999751,
+            "competitionCompletion": 0.9038399999926696,
+            "completion": 11.546561000003749,
+            "decisions": 1512.9363729999914,
+            "archive": 6.206878000004963
+          },
+          "counts": {
+            "clone": 36000,
+            "resources": 59150,
+            "ordinaryWork": 36000,
+            "courtshipWork": 0,
+            "socialWork": 515,
+            "competitionWork": 0,
+            "sharedMaintenance": 36000,
+            "mood": 36000,
+            "lifecycle": 36000,
+            "courtshipCompletion": 0,
+            "socialCompletion": 515,
+            "competitionCompletion": 0,
+            "completion": 501,
+            "decisions": 36000,
+            "archive": 36000
+          },
+          "hash": "cadee250389785c1"
+        },
+        {
+          "scenario": "mature",
+          "startTick": 300000,
+          "finalTick": 303200,
+          "population": 12,
+          "lineage": 110,
+          "organisms": 67,
+          "relationships": 48,
+          "ms": 2676.1488179999997,
+          "tps": 1121.01389123869,
+          "phases": {
+            "clone": 189.89690800000517,
+            "resources": 83.52603100000579,
+            "ordinaryWork": 412.0295779999933,
+            "courtshipWork": 17.256393999994543,
+            "socialWork": 13.938860000018394,
+            "competitionWork": 7.688215999982276,
+            "sharedMaintenance": 7.274734000014178,
+            "mood": 62.27847500002281,
+            "lifecycle": 17.155303999998978,
+            "courtshipCompletion": 58.4769499999702,
+            "socialCompletion": 14.351357000012285,
+            "competitionCompletion": 1.0766979999962132,
+            "completion": 19.515714999983174,
+            "decisions": 1765.3059170000151,
+            "archive": 6.375764999990679
+          },
+          "counts": {
+            "clone": 33681,
+            "resources": 59320,
+            "ordinaryWork": 33681,
+            "courtshipWork": 123,
+            "socialWork": 2437,
+            "competitionWork": 0,
+            "sharedMaintenance": 33681,
+            "mood": 33681,
+            "lifecycle": 33681,
+            "courtshipCompletion": 123,
+            "socialCompletion": 2437,
+            "competitionCompletion": 0,
+            "completion": 2362,
+            "decisions": 33683,
+            "archive": 327683
+          },
+          "hash": "8db938db631a11c2"
+        },
+        {
+          "scenario": "oldest",
+          "startTick": 441374,
+          "finalTick": 444574,
+          "population": 19,
+          "lineage": 94,
+          "organisms": 70,
+          "relationships": 122,
+          "ms": 3602.689845,
+          "tps": 832.711148911016,
+          "phases": {
+            "clone": 231.5166489999483,
+            "resources": 97.40824400001657,
+            "ordinaryWork": 608.4126050000123,
+            "courtshipWork": 4.759142999948381,
+            "socialWork": 13.15003900001102,
+            "competitionWork": 4.214045000020633,
+            "sharedMaintenance": 6.915944000027594,
+            "mood": 64.2370069999688,
+            "lifecycle": 15.264280000004874,
+            "courtshipCompletion": 23.394881000007445,
+            "socialCompletion": 19.70985500000461,
+            "competitionCompletion": 1.0117270000300778,
+            "completion": 29.071582999966267,
+            "decisions": 2476.3425890000653,
+            "archive": 7.2527809999883175
+          },
+          "counts": {
+            "clone": 60755,
+            "resources": 57784,
+            "ordinaryWork": 60755,
+            "courtshipWork": 62,
+            "socialWork": 2584,
+            "competitionWork": 0,
+            "sharedMaintenance": 60755,
+            "mood": 60755,
+            "lifecycle": 60753,
+            "courtshipCompletion": 62,
+            "socialCompletion": 2584,
+            "competitionCompletion": 0,
+            "completion": 2504,
+            "decisions": 60754,
+            "archive": 281925
+          },
+          "hash": "a4f523c51a2c682b"
+        }
+      ]
+    ]
+  },
+  "tickEquivalence": [
+    {
+      "name": "fresh",
+      "startTick": 0,
+      "ticks": 22000,
+      "finalTick": 22000,
+      "hash": "f376eea02fb542b5",
+      "everyTickIdentical": true
+    },
+    {
+      "name": "mature",
+      "startTick": 300000,
+      "ticks": 5000,
+      "finalTick": 305000,
+      "hash": "ad2ca36697354815",
+      "everyTickIdentical": true
+    },
+    {
+      "name": "oldest",
+      "startTick": 441374,
+      "ticks": 10000,
+      "finalTick": 451374,
+      "hash": "692195901b27fde8",
+      "everyTickIdentical": true
+    }
+  ],
+  "longPlay": {
+    "configHash": "28cb9e0c5b93b870",
+    "startTick": 441374,
+    "endTick": 1241374,
+    "ticks": 800000,
+    "segments": 80,
+    "ticksPerSecond": 757.6580152444266,
+    "checkpointBytes": 672595,
+    "hash": "ef13a9dd6e8f6ddb",
+    "continuationIdentical": true,
+    "explicitGc": true,
+    "rows": [
+      {
+        "tick": 451374,
+        "population": 18,
+        "lineage": 94,
+        "stubs": 0,
+        "organisms": 70,
+        "ticksPerSecond": 955.588528341585,
+        "heapBytes": 27645648,
+        "rssBytes": 446373888
+      },
+      {
+        "tick": 461374,
+        "population": 16,
+        "lineage": 95,
+        "stubs": 0,
+        "organisms": 70,
+        "ticksPerSecond": 1229.477304189284,
+        "heapBytes": 26717384,
+        "rssBytes": 467288064
+      },
+      {
+        "tick": 471374,
+        "population": 15,
+        "lineage": 95,
+        "stubs": 0,
+        "organisms": 70,
+        "ticksPerSecond": 1017.7114165994738,
+        "heapBytes": 26683232,
+        "rssBytes": 468283392
+      },
+      {
+        "tick": 481374,
+        "population": 15,
+        "lineage": 96,
+        "stubs": 0,
+        "organisms": 70,
+        "ticksPerSecond": 1428.7760278698433,
+        "heapBytes": 26849944,
+        "rssBytes": 471154688
+      },
+      {
+        "tick": 491374,
+        "population": 14,
+        "lineage": 102,
+        "stubs": 0,
+        "organisms": 72,
+        "ticksPerSecond": 1801.4085559369325,
+        "heapBytes": 26754024,
+        "rssBytes": 469704704
+      },
+      {
+        "tick": 501374,
+        "population": 8,
+        "lineage": 102,
+        "stubs": 0,
+        "organisms": 72,
+        "ticksPerSecond": 2125.6773635924783,
+        "heapBytes": 26704472,
+        "rssBytes": 471887872
+      },
+      {
+        "tick": 511374,
+        "population": 9,
+        "lineage": 103,
+        "stubs": 0,
+        "organisms": 73,
+        "ticksPerSecond": 2838.1488613283955,
+        "heapBytes": 26704360,
+        "rssBytes": 473853952
+      },
+      {
+        "tick": 521374,
+        "population": 13,
+        "lineage": 108,
+        "stubs": 0,
+        "organisms": 77,
+        "ticksPerSecond": 2043.660839663029,
+        "heapBytes": 26904104,
+        "rssBytes": 475951104
+      },
+      {
+        "tick": 531374,
+        "population": 18,
+        "lineage": 113,
+        "stubs": 0,
+        "organisms": 82,
+        "ticksPerSecond": 1398.1124053656686,
+        "heapBytes": 27317088,
+        "rssBytes": 478965760
+      },
+      {
+        "tick": 541374,
+        "population": 17,
+        "lineage": 113,
+        "stubs": 0,
+        "organisms": 82,
+        "ticksPerSecond": 1156.8529576433968,
+        "heapBytes": 27282776,
+        "rssBytes": 479490048
+      },
+      {
+        "tick": 551374,
+        "population": 21,
+        "lineage": 123,
+        "stubs": 0,
+        "organisms": 91,
+        "ticksPerSecond": 1134.0402003678846,
+        "heapBytes": 27419344,
+        "rssBytes": 481980416
+      },
+      {
+        "tick": 561374,
+        "population": 24,
+        "lineage": 126,
+        "stubs": 0,
+        "organisms": 94,
+        "ticksPerSecond": 861.1913072670512,
+        "heapBytes": 27343912,
+        "rssBytes": 481513472
+      },
+      {
+        "tick": 571374,
+        "population": 23,
+        "lineage": 127,
+        "stubs": 0,
+        "organisms": 94,
+        "ticksPerSecond": 763.4771540685524,
+        "heapBytes": 27637000,
+        "rssBytes": 481742848
+      },
+      {
+        "tick": 581374,
+        "population": 21,
+        "lineage": 131,
+        "stubs": 0,
+        "organisms": 94,
+        "ticksPerSecond": 842.4383297178165,
+        "heapBytes": 27631440,
+        "rssBytes": 481742848
+      },
+      {
+        "tick": 591374,
+        "population": 19,
+        "lineage": 132,
+        "stubs": 0,
+        "organisms": 94,
+        "ticksPerSecond": 999.0555096054453,
+        "heapBytes": 27579528,
+        "rssBytes": 481828864
+      },
+      {
+        "tick": 601374,
+        "population": 22,
+        "lineage": 135,
+        "stubs": 0,
+        "organisms": 97,
+        "ticksPerSecond": 1072.3990242566879,
+        "heapBytes": 27591088,
+        "rssBytes": 481959936
+      },
+      {
+        "tick": 611374,
+        "population": 16,
+        "lineage": 140,
+        "stubs": 0,
+        "organisms": 97,
+        "ticksPerSecond": 1062.5219799074207,
+        "heapBytes": 27553880,
+        "rssBytes": 483102720
+      },
+      {
+        "tick": 621374,
+        "population": 16,
+        "lineage": 142,
+        "stubs": 0,
+        "organisms": 98,
+        "ticksPerSecond": 1301.8796805322309,
+        "heapBytes": 27058016,
+        "rssBytes": 482852864
+      },
+      {
+        "tick": 631374,
+        "population": 18,
+        "lineage": 145,
+        "stubs": 0,
+        "organisms": 100,
+        "ticksPerSecond": 1242.6537340213142,
+        "heapBytes": 27138520,
+        "rssBytes": 482344960
+      },
+      {
+        "tick": 641374,
+        "population": 17,
+        "lineage": 148,
+        "stubs": 0,
+        "organisms": 100,
+        "ticksPerSecond": 1259.0073074816182,
+        "heapBytes": 27189992,
+        "rssBytes": 482467840
+      },
+      {
+        "tick": 651374,
+        "population": 16,
+        "lineage": 149,
+        "stubs": 0,
+        "organisms": 100,
+        "ticksPerSecond": 1259.44162295446,
+        "heapBytes": 27211176,
+        "rssBytes": 482598912
+      },
+      {
+        "tick": 661374,
+        "population": 15,
+        "lineage": 150,
+        "stubs": 0,
+        "organisms": 100,
+        "ticksPerSecond": 1407.412806659945,
+        "heapBytes": 27176384,
+        "rssBytes": 481804288
+      },
+      {
+        "tick": 671374,
+        "population": 12,
+        "lineage": 153,
+        "stubs": 0,
+        "organisms": 102,
+        "ticksPerSecond": 1811.4903690581968,
+        "heapBytes": 27077128,
+        "rssBytes": 482164736
+      },
+      {
+        "tick": 681374,
+        "population": 15,
+        "lineage": 158,
+        "stubs": 0,
+        "organisms": 105,
+        "ticksPerSecond": 1697.4803639995225,
+        "heapBytes": 27224288,
+        "rssBytes": 482295808
+      },
+      {
+        "tick": 691374,
+        "population": 13,
+        "lineage": 158,
+        "stubs": 0,
+        "organisms": 105,
+        "ticksPerSecond": 788.0197717845517,
+        "heapBytes": 27232160,
+        "rssBytes": 482295808
+      },
+      {
+        "tick": 701374,
+        "population": 13,
+        "lineage": 161,
+        "stubs": 0,
+        "organisms": 107,
+        "ticksPerSecond": 1035.728150685224,
+        "heapBytes": 27185952,
+        "rssBytes": 482271232
+      },
+      {
+        "tick": 711374,
+        "population": 13,
+        "lineage": 162,
+        "stubs": 0,
+        "organisms": 108,
+        "ticksPerSecond": 1458.5239597712996,
+        "heapBytes": 27207760,
+        "rssBytes": 482271232
+      },
+      {
+        "tick": 721374,
+        "population": 16,
+        "lineage": 166,
+        "stubs": 0,
+        "organisms": 112,
+        "ticksPerSecond": 1255.2318887299127,
+        "heapBytes": 27293008,
+        "rssBytes": 482402304
+      },
+      {
+        "tick": 731374,
+        "population": 19,
+        "lineage": 173,
+        "stubs": 0,
+        "organisms": 116,
+        "ticksPerSecond": 919.1928452285722,
+        "heapBytes": 27571928,
+        "rssBytes": 482500608
+      },
+      {
+        "tick": 741374,
+        "population": 17,
+        "lineage": 175,
+        "stubs": 0,
+        "organisms": 116,
+        "ticksPerSecond": 1132.7536171351012,
+        "heapBytes": 27519784,
+        "rssBytes": 482631680
+      },
+      {
+        "tick": 751374,
+        "population": 17,
+        "lineage": 176,
+        "stubs": 0,
+        "organisms": 117,
+        "ticksPerSecond": 1106.6558839635845,
+        "heapBytes": 27480304,
+        "rssBytes": 482631680
+      },
+      {
+        "tick": 761374,
+        "population": 19,
+        "lineage": 180,
+        "stubs": 0,
+        "organisms": 120,
+        "ticksPerSecond": 1226.1042848499637,
+        "heapBytes": 27611008,
+        "rssBytes": 482762752
+      },
+      {
+        "tick": 771374,
+        "population": 21,
+        "lineage": 183,
+        "stubs": 0,
+        "organisms": 123,
+        "ticksPerSecond": 911.294401888617,
+        "heapBytes": 27646200,
+        "rssBytes": 481935360
+      },
+      {
+        "tick": 781374,
+        "population": 22,
+        "lineage": 190,
+        "stubs": 0,
+        "organisms": 125,
+        "ticksPerSecond": 94.1112029525296,
+        "heapBytes": 27632464,
+        "rssBytes": 482066432
+      },
+      {
+        "tick": 791374,
+        "population": 22,
+        "lineage": 195,
+        "stubs": 0,
+        "organisms": 126,
+        "ticksPerSecond": 898.1879115291117,
+        "heapBytes": 27704784,
+        "rssBytes": 482168832
+      },
+      {
+        "tick": 801374,
+        "population": 20,
+        "lineage": 195,
+        "stubs": 0,
+        "organisms": 126,
+        "ticksPerSecond": 845.4467284210461,
+        "heapBytes": 27636160,
+        "rssBytes": 482168832
+      },
+      {
+        "tick": 811374,
+        "population": 23,
+        "lineage": 200,
+        "stubs": 0,
+        "organisms": 129,
+        "ticksPerSecond": 821.1225581979488,
+        "heapBytes": 27739712,
+        "rssBytes": 482693120
+      },
+      {
+        "tick": 821374,
+        "population": 24,
+        "lineage": 206,
+        "stubs": 0,
+        "organisms": 131,
+        "ticksPerSecond": 815.9152864622405,
+        "heapBytes": 27721176,
+        "rssBytes": 482693120
+      },
+      {
+        "tick": 831374,
+        "population": 24,
+        "lineage": 207,
+        "stubs": 0,
+        "organisms": 131,
+        "ticksPerSecond": 777.6734091501309,
+        "heapBytes": 27869032,
+        "rssBytes": 482693120
+      },
+      {
+        "tick": 841374,
+        "population": 22,
+        "lineage": 212,
+        "stubs": 0,
+        "organisms": 133,
+        "ticksPerSecond": 195.3291687350759,
+        "heapBytes": 27880384,
+        "rssBytes": 482824192
+      },
+      {
+        "tick": 851374,
+        "population": 18,
+        "lineage": 213,
+        "stubs": 0,
+        "organisms": 133,
+        "ticksPerSecond": 935.6098558539271,
+        "heapBytes": 27752296,
+        "rssBytes": 482955264
+      },
+      {
+        "tick": 861374,
+        "population": 17,
+        "lineage": 213,
+        "stubs": 0,
+        "organisms": 133,
+        "ticksPerSecond": 759.1433926498308,
+        "heapBytes": 27669640,
+        "rssBytes": 482709504
+      },
+      {
+        "tick": 871374,
+        "population": 15,
+        "lineage": 216,
+        "stubs": 0,
+        "organisms": 133,
+        "ticksPerSecond": 1442.7877020188873,
+        "heapBytes": 27638704,
+        "rssBytes": 483090432
+      },
+      {
+        "tick": 881374,
+        "population": 15,
+        "lineage": 221,
+        "stubs": 0,
+        "organisms": 133,
+        "ticksPerSecond": 1239.6407802020776,
+        "heapBytes": 27702400,
+        "rssBytes": 483352576
+      },
+      {
+        "tick": 891374,
+        "population": 14,
+        "lineage": 223,
+        "stubs": 0,
+        "organisms": 134,
+        "ticksPerSecond": 1236.7487038920492,
+        "heapBytes": 27691144,
+        "rssBytes": 483454976
+      },
+      {
+        "tick": 901374,
+        "population": 13,
+        "lineage": 225,
+        "stubs": 0,
+        "organisms": 136,
+        "ticksPerSecond": 1338.6548513740966,
+        "heapBytes": 27667552,
+        "rssBytes": 483123200
+      },
+      {
+        "tick": 911374,
+        "population": 13,
+        "lineage": 226,
+        "stubs": 0,
+        "organisms": 136,
+        "ticksPerSecond": 1479.7112868661995,
+        "heapBytes": 27671896,
+        "rssBytes": 483078144
+      },
+      {
+        "tick": 921374,
+        "population": 16,
+        "lineage": 229,
+        "stubs": 0,
+        "organisms": 139,
+        "ticksPerSecond": 1380.6072558630094,
+        "heapBytes": 27704112,
+        "rssBytes": 483078144
+      },
+      {
+        "tick": 931374,
+        "population": 16,
+        "lineage": 233,
+        "stubs": 0,
+        "organisms": 142,
+        "ticksPerSecond": 1141.3664962987414,
+        "heapBytes": 27772400,
+        "rssBytes": 483209216
+      },
+      {
+        "tick": 941374,
+        "population": 15,
+        "lineage": 236,
+        "stubs": 0,
+        "organisms": 143,
+        "ticksPerSecond": 1421.37106894012,
+        "heapBytes": 27774224,
+        "rssBytes": 486223872
+      },
+      {
+        "tick": 951374,
+        "population": 19,
+        "lineage": 242,
+        "stubs": 0,
+        "organisms": 149,
+        "ticksPerSecond": 1215.7631689223085,
+        "heapBytes": 27916632,
+        "rssBytes": 486195200
+      },
+      {
+        "tick": 961374,
+        "population": 22,
+        "lineage": 248,
+        "stubs": 0,
+        "organisms": 154,
+        "ticksPerSecond": 216.74055987583273,
+        "heapBytes": 27894248,
+        "rssBytes": 486195200
+      },
+      {
+        "tick": 971374,
+        "population": 23,
+        "lineage": 249,
+        "stubs": 0,
+        "organisms": 155,
+        "ticksPerSecond": 501.38797133797,
+        "heapBytes": 27937488,
+        "rssBytes": 486326272
+      },
+      {
+        "tick": 981374,
+        "population": 21,
+        "lineage": 252,
+        "stubs": 0,
+        "organisms": 156,
+        "ticksPerSecond": 230.0449516851053,
+        "heapBytes": 27883704,
+        "rssBytes": 486207488
+      },
+      {
+        "tick": 991374,
+        "population": 18,
+        "lineage": 252,
+        "stubs": 0,
+        "organisms": 156,
+        "ticksPerSecond": 720.77130795757,
+        "heapBytes": 28133704,
+        "rssBytes": 486338560
+      },
+      {
+        "tick": 1001374,
+        "population": 16,
+        "lineage": 254,
+        "stubs": 0,
+        "organisms": 156,
+        "ticksPerSecond": 506.28849894796735,
+        "heapBytes": 27886592,
+        "rssBytes": 489091072
+      },
+      {
+        "tick": 1011374,
+        "population": 11,
+        "lineage": 255,
+        "stubs": 0,
+        "organisms": 156,
+        "ticksPerSecond": 426.1426285806903,
+        "heapBytes": 27828768,
+        "rssBytes": 489066496
+      },
+      {
+        "tick": 1021374,
+        "population": 11,
+        "lineage": 260,
+        "stubs": 0,
+        "organisms": 159,
+        "ticksPerSecond": 2261.776323893608,
+        "heapBytes": 27932808,
+        "rssBytes": 489066496
+      },
+      {
+        "tick": 1031374,
+        "population": 13,
+        "lineage": 263,
+        "stubs": 0,
+        "organisms": 161,
+        "ticksPerSecond": 1742.9161924295013,
+        "heapBytes": 27887192,
+        "rssBytes": 489197568
+      },
+      {
+        "tick": 1041374,
+        "population": 13,
+        "lineage": 265,
+        "stubs": 0,
+        "organisms": 163,
+        "ticksPerSecond": 1654.5501127116947,
+        "heapBytes": 27928104,
+        "rssBytes": 489328640
+      },
+      {
+        "tick": 1051374,
+        "population": 13,
+        "lineage": 265,
+        "stubs": 0,
+        "organisms": 163,
+        "ticksPerSecond": 1674.0355117930922,
+        "heapBytes": 27951240,
+        "rssBytes": 489328640
+      },
+      {
+        "tick": 1061374,
+        "population": 13,
+        "lineage": 267,
+        "stubs": 0,
+        "organisms": 163,
+        "ticksPerSecond": 1704.7632984984587,
+        "heapBytes": 27972424,
+        "rssBytes": 489459712
+      },
+      {
+        "tick": 1071374,
+        "population": 15,
+        "lineage": 270,
+        "stubs": 0,
+        "organisms": 166,
+        "ticksPerSecond": 1553.2799373151806,
+        "heapBytes": 28022912,
+        "rssBytes": 489459712
+      },
+      {
+        "tick": 1081374,
+        "population": 11,
+        "lineage": 272,
+        "stubs": 0,
+        "organisms": 166,
+        "ticksPerSecond": 1621.3305234698305,
+        "heapBytes": 27884880,
+        "rssBytes": 489459712
+      },
+      {
+        "tick": 1091374,
+        "population": 12,
+        "lineage": 275,
+        "stubs": 0,
+        "organisms": 168,
+        "ticksPerSecond": 886.0357386651167,
+        "heapBytes": 27878664,
+        "rssBytes": 489562112
+      },
+      {
+        "tick": 1101374,
+        "population": 10,
+        "lineage": 275,
+        "stubs": 0,
+        "organisms": 168,
+        "ticksPerSecond": 1020.354511255104,
+        "heapBytes": 27932000,
+        "rssBytes": 489304064
+      },
+      {
+        "tick": 1111374,
+        "population": 13,
+        "lineage": 278,
+        "stubs": 0,
+        "organisms": 171,
+        "ticksPerSecond": 1001.2193441895315,
+        "heapBytes": 27995552,
+        "rssBytes": 489435136
+      },
+      {
+        "tick": 1121374,
+        "population": 15,
+        "lineage": 283,
+        "stubs": 0,
+        "organisms": 175,
+        "ticksPerSecond": 1092.4769956190328,
+        "heapBytes": 28077088,
+        "rssBytes": 489697280
+      },
+      {
+        "tick": 1131374,
+        "population": 17,
+        "lineage": 288,
+        "stubs": 0,
+        "organisms": 179,
+        "ticksPerSecond": 1342.4637253665426,
+        "heapBytes": 28102368,
+        "rssBytes": 489697280
+      },
+      {
+        "tick": 1141374,
+        "population": 18,
+        "lineage": 291,
+        "stubs": 0,
+        "organisms": 181,
+        "ticksPerSecond": 83.17282379179802,
+        "heapBytes": 26196152,
+        "rssBytes": 488648704
+      },
+      {
+        "tick": 1151374,
+        "population": 16,
+        "lineage": 291,
+        "stubs": 0,
+        "organisms": 181,
+        "ticksPerSecond": 1156.0174657934588,
+        "heapBytes": 26180240,
+        "rssBytes": 488779776
+      },
+      {
+        "tick": 1161374,
+        "population": 16,
+        "lineage": 291,
+        "stubs": 0,
+        "organisms": 181,
+        "ticksPerSecond": 1318.0787152248647,
+        "heapBytes": 26212080,
+        "rssBytes": 488779776
+      },
+      {
+        "tick": 1171374,
+        "population": 15,
+        "lineage": 293,
+        "stubs": 0,
+        "organisms": 181,
+        "ticksPerSecond": 1392.3388971789082,
+        "heapBytes": 26105184,
+        "rssBytes": 489009152
+      },
+      {
+        "tick": 1181374,
+        "population": 12,
+        "lineage": 296,
+        "stubs": 0,
+        "organisms": 181,
+        "ticksPerSecond": 1161.7398993425313,
+        "heapBytes": 26094208,
+        "rssBytes": 489271296
+      },
+      {
+        "tick": 1191374,
+        "population": 13,
+        "lineage": 302,
+        "stubs": 0,
+        "organisms": 183,
+        "ticksPerSecond": 469.108933804375,
+        "heapBytes": 26170112,
+        "rssBytes": 489381888
+      },
+      {
+        "tick": 1201374,
+        "population": 12,
+        "lineage": 303,
+        "stubs": 0,
+        "organisms": 183,
+        "ticksPerSecond": 1819.5701068344852,
+        "heapBytes": 26115552,
+        "rssBytes": 489512960
+      },
+      {
+        "tick": 1211374,
+        "population": 14,
+        "lineage": 305,
+        "stubs": 0,
+        "organisms": 185,
+        "ticksPerSecond": 1789.631560703051,
+        "heapBytes": 26134312,
+        "rssBytes": 489119744
+      },
+      {
+        "tick": 1221374,
+        "population": 18,
+        "lineage": 309,
+        "stubs": 0,
+        "organisms": 189,
+        "ticksPerSecond": 1309.3992137351622,
+        "heapBytes": 26193120,
+        "rssBytes": 489250816
+      },
+      {
+        "tick": 1231374,
+        "population": 22,
+        "lineage": 315,
+        "stubs": 0,
+        "organisms": 193,
+        "ticksPerSecond": 1098.340422427343,
+        "heapBytes": 26307744,
+        "rssBytes": 489250816
+      },
+      {
+        "tick": 1241374,
+        "population": 21,
+        "lineage": 317,
+        "stubs": 0,
+        "organisms": 193,
+        "ticksPerSecond": 983.8735738262576,
+        "heapBytes": 26302712,
+        "rssBytes": 489373696
+      }
+    ]
+  },
+  "visual": [
+    {
+      "name": "base",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "base",
+      "width": 860,
+      "meanChannelError": 5.012028869286287e-07,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "walk",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "walk",
+      "width": 860,
+      "meanChannelError": 5.012028869286287e-06,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "fly",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "fly",
+      "width": 860,
+      "meanChannelError": 5.964314354450682e-05,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "baby",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "baby",
+      "width": 860,
+      "meanChannelError": 5.012028869286287e-07,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "elder",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "elder",
+      "width": 860,
+      "meanChannelError": 5.5132317562149156e-06,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "leaf_crown",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "leaf_crown",
+      "width": 860,
+      "meanChannelError": 5.012028869286287e-06,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "ribbon",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "ribbon",
+      "width": 860,
+      "meanChannelError": 5.012028869286287e-06,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "star_pin",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "star_pin",
+      "width": 860,
+      "meanChannelError": 5.012028869286287e-06,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "diet-tint",
+      "width": 215,
+      "meanChannelError": 0,
+      "largePixelFraction": 0
+    },
+    {
+      "name": "diet-tint",
+      "width": 860,
+      "meanChannelError": 5.5132317562149156e-06,
+      "largePixelFraction": 0
+    }
+  ],
+  "standalone": {
+    "uploadedStateImportedAndExportedExactly": true,
+    "configHash": "28cb9e0c5b93b870",
+    "tickAfterPlaying": "261,396",
+    "pausedReloadExact": true,
+    "rescuePreferencePersists": true,
+    "externalAssetRequests": 0,
+    "pageErrors": []
+  },
+  "download": {
+    "file": "Derbil-Dynasty-Preview.zip",
+    "bytes": 435127,
+    "sha256": "4b7d3e94c7bb4e4b9add33a326215fc3911bc2526ce66f275b9bb04795100dc5",
+    "members": 2,
+    "update": "Exact simulation optimizations, reusable vector rendering and bounded long-play resources",
+    "configHash": "28cb9e0c5b93b870",
+    "allMemberCRCsVerified": true,
+    "commit": "253bef30ca10f731880139d9646b387bbf7f0d5e",
+    "hostedBytesVerified": true,
+    "url": "https://github.com/Gileriodekel/creature/raw/253bef30ca10f731880139d9646b387bbf7f0d5e/Derbil-Dynasty-Preview.zip"
+  },
+  "notes": [
+    "Long-play wall timings include deliberately paused periods and other checks; use the separate paired benchmarks for performance comparison.",
+    "104 focused tests pass; one historical 200k validator case excluded. All 10 Chromium tests pass. Historical full suite remains unresolved."
+  ]
+}

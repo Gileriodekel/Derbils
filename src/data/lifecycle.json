@@ -1,0 +1,95 @@
+{
+  "stages": {
+    "egg": {
+      "durationTicks": 30,
+      "mobile": false,
+      "scale": 1,
+      "saturationMultiplier": 1,
+      "needMultiplier": 0,
+      "xpMultiplier": 0,
+      "skillCap": 0,
+      "performanceMultiplier": 1
+    },
+    "baby": {
+      "durationTicks": 120,
+      "mobile": true,
+      "scale": 0.55,
+      "saturationMultiplier": 1,
+      "needMultiplier": 1.2,
+      "xpMultiplier": 0.6,
+      "skillCap": 15,
+      "performanceMultiplier": 1
+    },
+    "juvenile": {
+      "durationTicks": 240,
+      "mobile": true,
+      "scale": 0.78,
+      "saturationMultiplier": 1,
+      "needMultiplier": 1.1,
+      "xpMultiplier": 1.25,
+      "skillCap": 45,
+      "performanceMultiplier": 1
+    },
+    "adult": {
+      "durationTicks": 1200,
+      "mobile": true,
+      "scale": 1,
+      "saturationMultiplier": 1,
+      "needMultiplier": 1,
+      "xpMultiplier": 1,
+      "skillCap": 100,
+      "performanceMultiplier": 1
+    },
+    "elder": {
+      "durationTicks": 210,
+      "mobile": true,
+      "scale": 0.95,
+      "saturationMultiplier": 0.45,
+      "needMultiplier": 0.9,
+      "xpMultiplier": 0.5,
+      "skillCap": 100,
+      "performanceMultiplier": 0.85
+    },
+    "cocoon": {
+      "durationTicks": 30,
+      "mobile": false,
+      "scale": 1,
+      "saturationMultiplier": 0.6,
+      "needMultiplier": 0,
+      "xpMultiplier": 0,
+      "skillCap": 0,
+      "performanceMultiplier": 1
+    }
+  },
+  "firstLife": [
+    "egg",
+    "baby",
+    "juvenile",
+    "adult",
+    "elder"
+  ],
+  "rebornLife": [
+    "cocoon",
+    "baby",
+    "juvenile",
+    "adult",
+    "elder"
+  ],
+  "capacity": 30,
+  "deathFadeRealSeconds": 0.6,
+  "rebirth": {
+    "welfareMinimum": 0.7,
+    "friendMinimum": 2,
+    "friendBond": 40,
+    "maximum": 2,
+    "chance": 0.6,
+    "memoryRetention": 0.5,
+    "rivalryRetention": 0.25,
+    "friendValence": -0.2,
+    "friendStress": 8
+  },
+  "eventLogLimit": 1000,
+  "visibleEventLimit": 12,
+  "debugAgeTicks": 1000,
+  "debugAgeBatchTicks": 100
+}

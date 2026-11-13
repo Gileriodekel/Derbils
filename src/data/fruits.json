@@ -1,0 +1,311 @@
+{
+  "sunapple": {
+    "name": "Running berry",
+    "color": "#FE66AB",
+    "effects": {
+      "hunger": -30,
+      "fatigue": 0,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -2
+    },
+    "taste": {
+      "sweet": 0.9,
+      "tart": 0.3,
+      "earthy": 0.1
+    },
+    "growthTicks": 180,
+    "capacity": 6,
+    "skillBonuses": {
+      "run": 0.25
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#F2AA4C",
+      "exposure": {
+        "palette": 0.02,
+        "body": 0,
+        "aptitude": 0.02
+      }
+    },
+    "rare": false
+  },
+  "dewberry": {
+    "name": "Swimming berry",
+    "color": "#EAB607",
+    "effects": {
+      "hunger": -26,
+      "fatigue": -4,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -3
+    },
+    "taste": {
+      "sweet": 0.6,
+      "tart": 0.7,
+      "earthy": 0.1
+    },
+    "growthTicks": 150,
+    "capacity": 6,
+    "skillBonuses": {
+      "swim": 0.25
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#70B9E5",
+      "exposure": {
+        "palette": 0.04,
+        "body": 0,
+        "aptitude": 0
+      }
+    },
+    "rare": false
+  },
+  "cloudplum": {
+    "name": "Flight berry",
+    "color": "#9F55E1",
+    "effects": {
+      "hunger": -24,
+      "fatigue": 0,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -4
+    },
+    "taste": {
+      "sweet": 0.7,
+      "tart": 0.4,
+      "earthy": 0.2
+    },
+    "growthTicks": 180,
+    "capacity": 6,
+    "skillBonuses": {
+      "fly": 0.25
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#C5B1E8",
+      "exposure": {
+        "palette": 0.02,
+        "body": 0,
+        "aptitude": 0.03
+      }
+    },
+    "rare": false
+  },
+  "vinefig": {
+    "name": "Vinefig",
+    "color": "#89A873",
+    "effects": {
+      "hunger": -32,
+      "fatigue": 2,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -2
+    },
+    "taste": {
+      "sweet": 0.5,
+      "tart": 0.2,
+      "earthy": 0.8
+    },
+    "growthTicks": 180,
+    "capacity": 6,
+    "skillBonuses": {},
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#89A873",
+      "exposure": {
+        "palette": 0,
+        "body": 0.04,
+        "aptitude": 0
+      }
+    },
+    "rare": false
+  },
+  "stonepear": {
+    "name": "Strength berry",
+    "color": "#EE4930",
+    "effects": {
+      "hunger": -38,
+      "fatigue": 4,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -1
+    },
+    "taste": {
+      "sweet": 0.3,
+      "tart": 0.2,
+      "earthy": 0.9
+    },
+    "growthTicks": 240,
+    "capacity": 6,
+    "skillBonuses": {
+      "strength": 0.25
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#C6AD87",
+      "exposure": {
+        "palette": 0,
+        "body": 0.04,
+        "aptitude": 0.01
+      }
+    },
+    "rare": false
+  },
+  "ambermelon": {
+    "name": "Stamina berry",
+    "color": "#437CF5",
+    "effects": {
+      "hunger": -40,
+      "fatigue": -8,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -3
+    },
+    "taste": {
+      "sweet": 0.8,
+      "tart": 0.2,
+      "earthy": 0.3
+    },
+    "growthTicks": 240,
+    "capacity": 6,
+    "skillBonuses": {
+      "stamina": 0.25
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#EDCA64",
+      "exposure": {
+        "palette": 0.02,
+        "body": 0.02,
+        "aptitude": 0
+      }
+    },
+    "rare": false
+  },
+  "moonpeach": {
+    "name": "Moonpeach",
+    "color": "#EAB3C5",
+    "effects": {
+      "hunger": -26,
+      "fatigue": 8,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -14
+    },
+    "taste": {
+      "sweet": 0.8,
+      "tart": 0.1,
+      "earthy": 0.4
+    },
+    "growthTicks": 210,
+    "capacity": 6,
+    "skillBonuses": {
+      "stamina": 0.1
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#EAB3C5",
+      "exposure": {
+        "palette": 0.03,
+        "body": 0,
+        "aptitude": 0
+      }
+    },
+    "rare": false
+  },
+  "sparkcherry": {
+    "name": "Sparkcherry",
+    "color": "#EB795B",
+    "effects": {
+      "hunger": -20,
+      "fatigue": -12,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": 4
+    },
+    "taste": {
+      "sweet": 0.4,
+      "tart": 1,
+      "earthy": 0.1
+    },
+    "growthTicks": 150,
+    "capacity": 6,
+    "skillBonuses": {
+      "run": 0.15
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#EB795B",
+      "exposure": {
+        "palette": 0,
+        "body": 0.02,
+        "aptitude": 0.03
+      }
+    },
+    "rare": false
+  },
+  "prismpear": {
+    "name": "Prism Pear",
+    "color": "#8DD5C9",
+    "effects": {
+      "hunger": -30,
+      "fatigue": 0,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -6
+    },
+    "taste": {
+      "sweet": 0.7,
+      "tart": 0.6,
+      "earthy": 0.3
+    },
+    "growthTicks": 600,
+    "capacity": 3,
+    "skillBonuses": {
+      "fly": 0.2,
+      "swim": 0.2
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#8DD5C9",
+      "exposure": {
+        "palette": 0.16,
+        "body": 0,
+        "aptitude": 0
+      }
+    },
+    "rare": true
+  },
+  "spiralfruit": {
+    "name": "Spiral Fruit",
+    "color": "#D49BCB",
+    "effects": {
+      "hunger": -34,
+      "fatigue": 2,
+      "boredom": -4,
+      "loneliness": 0,
+      "stress": -6
+    },
+    "taste": {
+      "sweet": 0.5,
+      "tart": 0.4,
+      "earthy": 0.9
+    },
+    "growthTicks": 600,
+    "capacity": 3,
+    "skillBonuses": {
+      "strength": 0.2
+    },
+    "skillBonusDurationTicks": 600,
+    "appearance": {
+      "tintRgb": "#D49BCB",
+      "exposure": {
+        "palette": 0,
+        "body": 0.16,
+        "aptitude": 0
+      }
+    },
+    "rare": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dayTicks": 1200,
+  "stages": { "egg": 600, "baby": 2400, "juvenile": 4800, "adult": 43200, "elder": 7200, "cocoon": 1200 },
+  "firstLifespan": 58200,
+  "rebornLifespan": 58800
+}
